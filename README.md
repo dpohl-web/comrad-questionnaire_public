@@ -65,8 +65,8 @@ To set up the project locally, you will need Node.js (version >=18.15.0).
 
 1.  **Clone the repository:**
     ```
-    git clone https://your-repository-url.git
-    cd questionnaire-frontend
+    git clone https://github.com/dpohl-web/comrad-questionnaire_public.git
+    cd comrad-questionnaire_public
     ```
 
 2.  **Install dependencies:**
