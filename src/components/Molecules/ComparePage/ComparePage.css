@@ -1,0 +1,119 @@
+.compare {
+  box-sizing: border-box;
+  padding-top: 90px;
+  height: 100vh; }
+  .compare .compare__add-icon {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer; }
+
+.compare__scrolldiv {
+  height: calc(100% - 40px - (16px * 2)); }
+
+.compare__scrolldiv-inner {
+  height: 100%;
+  overflow-y: scroll;
+  padding: 16px; }
+
+.compare__body-wrapper {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.compare__goback-wrapper {
+  display: inline-block;
+  position: relative;
+  border-radius: 500px;
+  border: 2px solid #2997ab;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  color: #2997ab; }
+  .compare__goback-wrapper:hover {
+    opacity: 0.7; }
+  .compare__goback-wrapper .compare__backbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    display: inline-block;
+    font-size: 1.222rem;
+    text-decoration: none; }
+
+.compare__goback-link {
+  text-decoration: none; }
+
+.compare__data-list > ul {
+  list-style: none;
+  padding: 0; }
+
+.compare__data-list li {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 2.66667px; }
+
+.compare__data-list .compare__delete-listelement {
+  font-family: 'foundation-icons';
+  font-size: 1.222rem;
+  text-decoration: none;
+  color: #b22222;
+  cursor: pointer; }
+
+.compare__div-to-print--wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  width: 0; }
+
+.compare__div-to-print {
+  width: 297mm; }
+
+.compare__chart-container-wrapper {
+  width: 100%;
+  overflow-x: auto; }
+
+.compare__chartBaseImage {
+  display: block;
+  margin: 0 auto; }
+
+.compare__chart-nirvana-wrapper {
+  overflow: hidden;
+  height: 0;
+  width: 0; }
+
+.compare__chart-nirvana {
+  width: 280mm; }
+  .compare__chart-nirvana .result__chart-container {
+    height: 100mm; }
+
+.compare__data-graph .result__chart-container {
+  min-width: 600px;
+  height: 400px; }
+  @media screen and (max-width: 100px) {
+    .compare__data-graph .result__chart-container {
+      height: 120px; } }
+  @media screen and (max-width: 200px) {
+    .compare__data-graph .result__chart-container {
+      height: 220px; } }
+  @media screen and (max-width: 400px) {
+    .compare__data-graph .result__chart-container {
+      height: 300px; } }
+  @media screen and (max-width: 600px) {
+    .compare__data-graph .result__chart-container {
+      height: 330px; } }
+  @media screen and (min-width: 601px) {
+    .compare__data-graph .result__chart-container {
+      height: 400px; } }
+
+.compare__goback-link {
+  position: absolute;
+  text-decoration: none;
+  margin-left: 16px;
+  margin-top: 16px; }
+
+.compare__downloadpdf {
+  margin-top: 16px; }

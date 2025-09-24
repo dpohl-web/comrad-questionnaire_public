@@ -1,0 +1,17 @@
+@import "../../../scss/variables.scss";
+.checkbox--general {
+    .applicationbody__answer {
+        margin-left: 0;
+    }
+}
+
+.checkbox--general__label {
+    display: inline-block;
+    width: 80%;
+    max-width: 500px;
+    margin: 16px 0;
+}
+
+.checkbox-general__mrm {
+    margin-right: $spacing--medium;
+}

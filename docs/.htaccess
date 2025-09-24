@@ -1,0 +1,5 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteRule ^view/view.php/green$ /view/view.php?id=3842 [QSA,L]
+RewriteRule ^view/view.php/$ /view/view.php?id=3842 [QSA,L]

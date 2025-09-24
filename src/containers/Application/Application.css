@@ -1,0 +1,24 @@
+.Application {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden; }
+
+.application_noquestfound-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 16px; }
+
+.application_noquestfound {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  padding: 16px;
+  border: 10px solid #f0b0b0;
+  border-radius: 20px;
+  background: #7a7a7a;
+  color: #ffffff;
+  box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.41); }

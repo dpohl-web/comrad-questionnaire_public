@@ -1,0 +1,119 @@
+// base
+$base__size: 8px;
+$base__fontSize: 16px;
+$base__lineHeight: 1.4;
+
+
+$color__blue: #390D7F;
+$color__blue--dark: #233A7D;
+$color__red: #b22222;
+$color__yellow: #fdfd96;
+$color__green: #2997ab;
+$color__pastellgreen: #61866c;
+$color__pastellbordeaux: #B35F5F;
+$color__pastellviolett: #AB93A4;
+$color__pastellblue: #96AFCB;
+$color__pastellorange: #ffcc33;
+$color__grey: #E8E8E8;
+$color__orange: #FFC36D;
+$color__white: #ffffff;
+$color__black: #333333;
+$color__bronce: #cd7f32;
+$color__silver: #c0c0c0;
+$color__gold: #ffd700;
+$color__primary: $color__green;
+$color__secondary: #329AF4;
+$color__diagram: $color__primary;
+$color__font: #333;
+
+
+//computed colors
+$color__grey--darker: darken($color__grey, 15%);
+$color__green--lighter: lighten($color__green, 10%);
+$color__orange--dark: darken($color__orange, 10%);
+$color__red--lighter: lighten($color__red, 10%);
+$color__bronce--dark: darken($color__bronce, 10%);
+$color__silver--dark: darken($color__silver, 10%);
+$color__gold--dark: darken($color__gold, 10%);
+$color__pastellgreen--dark: darken($color__pastellgreen, 10%);
+$color__pastellbordeaux--dark: darken($color__pastellbordeaux, 10%);
+$color__pastellviolett--dark: darken($color__pastellviolett, 10%);
+$color__pastellblue--dark: darken($color__pastellblue, 10%);
+$color__pastellorange--dark: darken($color__pastellorange, 10%);
+$color__primary--dark: darken($color__primary, 10%);
+$color__grey_dark: darken($color__grey, 30%);
+$color__success: lighten($color__pastellgreen, 40%);
+$color__error: lighten($color__red, 40%);
+$color__grey--darkest: darken($color__grey, 43%);
+
+// for the graph points
+$color__diagram--eighty: mix($color__white, $color__diagram, 80);
+$color__diagram--sixty: mix($color__white, $color__diagram, 60);
+$color__diagram--fourty: mix($color__white, $color__diagram, 40);
+$color__diagram--twenty: mix($color__white, $color__diagram, 20);
+
+
+
+// font sizes
+$font-size__text: 1rem;
+$font-size__small: .75rem;
+$font-size__h1: 1.777rem;
+$font-size__h2: 1.555rem;
+$font-size__h3: 1.222rem;
+$font-size__button: 1rem;
+
+// breakpoints
+$breakpoint--small: 320px;
+$breakpoint--middle: 800px;
+$breakpoint--large: 1200px;
+
+// sizes
+$spacing--tiny: $base__size / 3;
+$spacing--small: $base__size * 1;
+$spacing--medium: $base__size * 2;
+$spacing--large: $base__size * 4;
+$spacing--huge: $base__size * 5;
+
+$button__height: $base__size * 5;
+$button--large__height: $base__size * 6;
+$button--larger__height: $base__size * 7;
+
+$question-button: $base__size * 13;
+$question-button--small: $base__size * 8;
+
+// $header__height: 85px;
+// $header__height--small: 105px;
+
+$icon__height: 30px;
+
+//sidebar
+$sidebar-width: 280px;
+
+//header
+$header-height: 90px;
+
+//stageheader
+$stage-header-height: 50px;
+
+//diagram
+$diagram-height: 120px;
+$diagram-width: 30px;
+
+//some widths
+$width--reading: 800px;
+
+$divToPrintWidth: 297mm;
+
+//shadows
+$squiz-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+$squiz-shadow--inner: inset 3px 3px 3px rgba(0,0,0,0.3);
+
+//result
+$resultimage-width--big: 100px;
+
+$progress-height: $base__size;
+
+// font family
+$font-family: 'Lato', 'Aller', Helvetica, Arial, sans-serif;
+
+$border-radius: 10px;

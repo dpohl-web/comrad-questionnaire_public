@@ -1,0 +1,83 @@
+{
+  "name": "questionnaire",
+  "version": "1.1.5",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.10",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "chart.js": "^4.2.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "classnames": "^2.3.2",
+    "color": "^4.2.3",
+    "immer": "^9.0.19",
+    "jquery": "^3.6.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node-sass": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-datepicker": "^4.10.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-spinners": "^0.13.8",
+    "react-spring": "^9.7.1",
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.2.1",
+    "redux-saga": "^1.2.2",
+    "redux-thunk": "^2.4.2",
+    "reselect": "^4.1.7",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^3.1.1",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start_storybook": "npm-run-all --parallel watch-css storybook",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.15.0 <19"
+  }
+}

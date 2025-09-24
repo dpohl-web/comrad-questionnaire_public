@@ -1,0 +1,1179 @@
+<?xml version="1.0"?>
+<questionaire>    
+	<head>
+		<title>Lernstildiagnose</title>
+		<meta type="survey"/>
+		<language fallback="de_DE"/>		
+	</head>
+	<!--
+	###################################################################
+	#	Allgemeine Angaben
+	###################################################################
+	-->
+	<page id="allgemeine_angaben" next_page="KE">
+		<block id="wie_alt" type="text">
+			<header>
+				<language lang="de_DE">
+					<string><?php GENERAL_INFORMATION?></string>
+				</language>
+			</header>
+			<question is_date="true">
+				<language lang="de_DE">
+					<string><?php BIRTHDAY?></string>
+				</language>
+			</question>
+			<answer text_width="2" text_height="1" text_maxlength="2">
+				<language lang="de_DE">
+					<string><?php DAY?></string>
+				</language>
+			</answer>
+			<answer text_width="2" text_height="1" text_maxlength="2">
+				<language lang="de_DE">
+					<string><?php MONTH?></string>
+				</language>
+			</answer>
+			<answer text_width="4" text_height="1" text_maxlength="4">
+				<language lang="de_DE">
+					<string><?php YEAR?></string>
+				</language>
+			</answer>
+		</block>	
+	 	<block id="geschlecht" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php GENDER?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php FEMALE?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php MALE?></string>
+				</language>
+			</answer>
+		</block>
+		<block id="studiengang" type="text">
+			<question>
+				<language lang="de_DE">
+					<string><?php PROFESSION?></string>
+				</language>
+			</question>
+			<answer text_width="20" text_height="1" text_maxlength="20" required="required">
+				<language lang="de_DE">
+					<string> </string>
+				</language>
+			</answer>			
+		</block>		
+	</page>	
+		<!--
+	###################################################################
+	#	KE
+	###################################################################
+	-->
+ 	<page id="KE" next_page="RB">
+		<block id="KE_1" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_1?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>
+		<block id="KE_2" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_2?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_3" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_3?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_4" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_4?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_5" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_5?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_6" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_6?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_7" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_7?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_8" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_8?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_9" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_9?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="KE_10" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php KE_10?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>
+	</page>
+			<!--
+	###################################################################
+	#	RB
+	###################################################################
+	-->
+ 	<page id="RB" next_page="AB">
+		<block id="RB_1" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_1?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>
+		<block id="RB_2" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_2?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_3" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_3?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_4" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_4?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_5" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_5?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_6" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_6?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_7" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_7?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_8" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_8?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_9" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_9?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="RB_10" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php RB_10?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>		
+	</page>
+			<!--
+	###################################################################
+	#	AB
+	###################################################################
+	-->
+ 	<page id="AB" next_page="AE">
+		<block id="AB_1" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_1?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>
+		<block id="AB_2" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_2?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_3" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_3?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_4" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_4?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_5" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_5?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_6" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_6?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_7" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_7?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_8" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_8?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_9" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_9?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AB_10" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AB_10?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>		
+	</page>
+			<!--
+	###################################################################
+	#	AE
+	###################################################################
+	-->
+ 	<page id="AE">
+		<block id="AE_1" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_1?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>
+		<block id="AE_2" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_2?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_3" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_3?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_4" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_4?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_5" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_5?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_6" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_6?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_7" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_7?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_8" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_8?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_9" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_9?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>	
+		<block id="AE_10" type="radio">
+			<question min_required="1">
+				<language lang="de_DE">
+					<string><?php AE_10?></string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _0?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _1?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _2?></string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de_DE">
+					<string><?php _3?></string>
+				</language>
+			</answer>			
+		</block>		
+	</page>
+</questionaire>

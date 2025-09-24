@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+    <config>
+        <language>
+            <default>
+                de
+            </default>
+            <languages>
+                <short>
+                    en
+                </short>
+                <long>
+                    English
+                </long>
+            </languages>
+            <languages>
+                <short>
+                    de
+                </short>
+                <long>
+                    Deutsch
+                </long>
+            </languages>
+        </language>
+        <graphs>
+            <!-- default options are: 'radar', 'doughnut', 'bar', 'ownbar', 'polar' -->
+            <default>
+                ownbar
+            </default>
+            <!-- Options are 0 or 1 -->
+            <showGraphSwitch>
+                1
+            </showGraphSwitch>
+            <graphSwitchOptions>
+                <!-- options are: 'radar', 'doughnut', 'bar', 'ownbar', 'polar' -->
+                <options>
+                    radar
+                </options>
+                <options>
+                    doughnut
+                </options>
+                <options>
+                    polar
+                </options>
+                <options>
+                    ownbar
+                </options>
+                <options>
+                    bar
+                </options>
+            </graphSwitchOptions>
+        </graphs>
+        <!-- Options are 0 or 1 -->
+        <showHeaderButton>
+            1
+        </showHeaderButton>
+    </config>
+    <head>
+        <title>
+            <de>
+                Qualität &amp; QM
+            </de>
+            <en>
+                REST questionnaire
+            </en>
+        </title>
+        <meta type="survey"/>
+        <language fallback="de_DE"/>
+        <button>
+            <text>
+                <de>
+                    Zu REVEAL
+                </de>
+                <en>
+                    To REVEAL
+                </en>
+            </text>
+            <link>
+                https://reveal-eu.org/
+            </link>
+        </button>
+    </head>
+    <!--
+	###################################################################
+	#	Allgemeine Angaben
+	###################################################################
+	-->
+    <categories>
+        <evaluateCategory>
+            0
+        </evaluateCategory>
+        <categoryName>
+            <de>
+                Allgemeine Angaben
+            </de>
+            <en>
+                General Information
+            </en>
+        </categoryName>
+        <categoryPages>
+            <pageEvaluate>
+                0
+            </pageEvaluate>
+            <pageInformations position_to_catname="before">
+                <pageInformationsSubtitle>
+                    <de>
+                        Selbsteinschätzung zum Thema Qualitätsmanagement in Bildungseinrichtung
+                    </de>
+                    <en>
+                        Comptence Profile on Entrepreneurship
+                    </en>
+                </pageInformationsSubtitle>
+                <pageInformationsDescription>
+                    <de>
+                        Wie schätzen Sie Ihre Kompetenzen in Bezug auf die einzelnen Modulthemen ein?                                                <![CDATA[<br>]]>
+                        Bitte kreuzen Sie die für Sie am ehesten passende Antwort auf die folgenden 5 Fragenblöcke an.
+                    </de>
+                    <en><![CDATA[<br>Comptence Profile on Entrepreneurship<hr>]]></en>
+                </pageInformationsDescription>
+            </pageInformations>
+
+            <!-- <blocks id="wie_alt" type="datepicker">
+                <blockQuestion>
+                    <de>
+                        Geburtstag
+                    </de>
+                    <en>
+                        Birthday
+                    </en>
+                </blockQuestion>
+            </blocks> -->
+            <blocks type="input">
+                <blockQuestion>
+                    <de>
+                        Name
+                    </de>
+                    <en>
+                        Name
+                    </en>
+                </blockQuestion>
+            </blocks>
+            <!-- <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Geschlecht
+                    </de>
+                    <en>
+                        Gender
+                    </en>
+                </blockQuestion>
+                <blockAnswer>
+                    <de>
+                        weiblich
+                    </de>
+                    <en>
+                        female
+                    </en>
+                    <answerValue>female</answerValue>
+                </blockAnswer>
+                <blockAnswer>
+                    <de>
+                        männlich
+                    </de>
+                    <en>
+                        male
+                    </en>
+                    <answerValue>male</answerValue>
+                </blockAnswer>
+                <blockAnswer>
+                    <de>
+                        nicht angegeben
+                    </de>
+                    <en>
+                        not selected
+                    </en>
+                    <answerValue>not selected</answerValue>
+                </blockAnswer>
+            </blocks> -->
+            <blocks type="input">
+                <blockQuestion>
+                    <de>
+                        Beruf, Studienzweig, Spezialisierung
+                    </de>
+                    <en>
+                        Name of organisation
+                    </en>
+                </blockQuestion>
+            </blocks>
+        </categoryPages>
+    </categories>
+    <!--
+	###################################################################
+	#	Qualität und QM
+	###################################################################
+	-->
+    <categories>
+        <evaluateCategory>
+            1
+        </evaluateCategory>
+        <categoryName>
+            <de>
+                Qualität und QM
+            </de>
+            <en>
+                Competences on Recruitment of refugees
+            </en>
+        </categoryName>
+        <catcolor>
+            rgb(187,45,62)
+        </catcolor>
+        <categoryPages>
+            <pageEvaluate>
+                1
+            </pageEvaluate>
+            <!-- <blocks type="check"> -->
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Qualität Allgemein
+                    </de>
+                    <en>
+                        Searching
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann den Begriff der Qualität mit meinen eigenen Worten erklären.
+                        </de>
+                        <en>
+                        I am aware that the searching process of refugees is a challenge.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe in meinen privaten und professionellen Tätigkeitsbereichen für eine qualitative Verbesserungen gesorgt.
+                        </de>
+                        <en>
+                        I understand the basic reasons for the challenges in the searching process of refugees.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann Qualitätsfaktoren in meiner Einrichtung einschätzen und diskutieren. 
+                        </de>
+                        <en>
+                        I am able to take on board singular searching activities in my own (selected) campaigns.
+                        </en>
+                    </blockAnswer>
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen umzusetzen. 
+                        </de>
+                        <en>
+                        I have been creating and executing searching approaches for refugees for my professional domain.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen strategisch einzuführen. 
+                        </de>
+                        <en>
+                        I am able to strategically integrate the approaches in our company’s searching strategy.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <!-- <blocks type="inputrange"> -->
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Qualitätsmanagement
+                    </de>
+                    <en>
+                        Screening (instruments etc.)
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe eine rudimentäre Vorstellung über QualitätsMANAGEMENT.
+                        </de>
+                        <en>
+                        I am aware that the screening process of refugees is a specific challenge.
+                        </en>
+                    </blockAnswer>
+                        <answerValue>1</answerValue>
+                        <!-- <answerValue type="min">0</answerValue>
+                        <answerValue type="max">10</answerValue> -->
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne die Grundlagen des QM und habe diese bereits angewendet.
+                        </de>
+                        <en>
+                        I understand the basic reasons for the challenges in the screening process of refugees.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne alle  zentralen Elemente eines QM-Systems und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren.
+                        </de>
+                        <en>
+                        I am able to take on board singular specific screening instruments in my own campaigns.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen systematisch einzuführen.
+                        </de>
+                        <en>
+                        I have been creating and executing a toolbox for screening instruments for refugees for my professional domain.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage ein QM in einer Einrichtung einzuführen. 
+                        </de>
+                        <en>
+                        I am able to strategically integrate the approaches in our company’s searching strategy.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+        </categoryPages>
+    </categories>
+    <!--
+	###################################################################
+	#	Induction and onboarding skills and competences
+	###################################################################
+	-->
+    <categories>
+        <evaluateCategory>
+            1
+        </evaluateCategory>
+        <categoryName>
+            <de>
+                QM in der Bildung
+            </de>
+            <en>
+                Induction and onboarding skills and competences
+            </en>
+        </categoryName>
+        <catcolor>
+            rgb(120,38,194)
+        </catcolor>
+        <categoryPages>
+            <pageEvaluate>
+                1
+            </pageEvaluate>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Anforderungen an das QM in verschiedenen Bildungsbereichen
+                    </de>
+                    <en>
+                        Inclusive company cultures
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann qualitätsrelevante Bereiche in verschiedenen Bildungssektoren benennen.
+                        </de>
+                        <en>
+                        I am aware that different companies have different integration cultures
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann grob unterschiedliche Qualitäts-Anforderungen in einigen Bildungssektoren erklären.
+                        </de>
+                        <en>
+                        I am aware of advantages of an inclusive enterprise culture.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne detailliert die wesentlichen Anforderungen und Strukturen in einigen Bildungssektoren in Bezug auf Qualität und QM.
+                        </de>
+                        <en>
+                        I know the main “ingredients” of a positive inclusive enterprise culture.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, die Anforderungen aus den Bildungssektoren im Hinblick auf unterschiedliche QM-Systeme zu analysieren.
+                        </de>
+                        <en>
+                        I’m able to implement singular actions for that support an inclusive enterprise culture.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann passende QM-Systeme in einer Bildungseinrichtung in der Praxis zu planen und einzuführen.
+                        </de>
+                        <en>
+                        I am able to develop and implement an inclusive enterprise culture in my organisation (and in others).
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        QM in verschiedenen Bildungssektoren
+                    </de>
+                    <en>
+                        Crosscultural management
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe von speziellen Qualitätsmanagementsystemen für den Bildungsbereich gehört.
+                        </de>
+                        <en>
+                        I have a notion what crosscultural management means.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne einige unterschiedliche QM-Systeme im Bildungsbereich und kann diese grob unterscheiden. 
+                        </de>
+                        <en>
+                        I am aware of the purpose and advantages of crosscultural management.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne zentrale Elemente verschiedener QM-Systeme im Bildungsbereich und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren. 
+                        </de>
+                        <en>
+                        I can explain the concept and the main elements of crosscultural management.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, mehrere QM-Systeme im Hinblick auf Ihre Passung in bestimmten Bildungseinrichtungen und -sektoren zu analysieren. 
+                        </de>
+                        <en>
+                        I’m able to implement singular actions for a crosscultural management in a given case.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann passende QM-Systeme in einer Bildungseinrichtung in der Praxis zu planen und einzuführen.
+                        </de>
+                        <en>
+                        I am able to develop and implement crosscultural management in my organisation (and in others).
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        QM in verschiedenen Bildungssektoren
+                    </de>
+                    <en>
+                        Onboarding techniques
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe von speziellen Qualitätsmanagementsystemen für den Bildungsbereich gehört.
+                        </de>
+                        <en>
+                        I know that integrating refugees need specific onboarding techniques.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne einige unterschiedliche QM-Systeme im Bildungsbereich und kann diese grob unterscheiden. 
+                        </de>
+                        <en>
+                        I can tell reasons of specific onboarding techniques for refugees in organisations and enterprises.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne zentrale Elemente verschiedener QM-Systeme im Bildungsbereich und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren. 
+                        </de>
+                        <en>
+                        I can explain different onboarding elements and techniques in regard to different target groups.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, mehrere QM-Systeme im Hinblick auf Ihre Passung in bestimmten Bildungseinrichtungen und -sektoren zu analysieren. 
+                        </de>
+                        <en>
+                        I’m able to implement singular onboarding techniques in specific cases.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann passende QM-Systeme in einer Bildungseinrichtung in der Praxis zu planen und einzuführen.
+                        </de>
+                        <en>
+                        I am able to develop and implement a strategic system for onboarding refugees and migrants in organisations and enterprises.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+        </categoryPages>
+        <categoryPages>
+            <pageEvaluate>
+                1
+            </pageEvaluate>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Anforderungen an das QM in verschiedenen Bildungsbereichen
+                    </de>
+                    <en>
+                        Inclusive company cultures
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann qualitätsrelevante Bereiche in verschiedenen Bildungssektoren benennen.
+                        </de>
+                        <en>
+                        I am aware that different companies have different integration cultures
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann grob unterschiedliche Qualitäts-Anforderungen in einigen Bildungssektoren erklären.
+                        </de>
+                        <en>
+                        I am aware of advantages of an inclusive enterprise culture.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne detailliert die wesentlichen Anforderungen und Strukturen in einigen Bildungssektoren in Bezug auf Qualität und QM.
+                        </de>
+                        <en>
+                        I know the main “ingredients” of a positive inclusive enterprise culture.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, die Anforderungen aus den Bildungssektoren im Hinblick auf unterschiedliche QM-Systeme zu analysieren.
+                        </de>
+                        <en>
+                        I’m able to implement singular actions for that support an inclusive enterprise culture.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann passende QM-Systeme in einer Bildungseinrichtung in der Praxis zu planen und einzuführen.
+                        </de>
+                        <en>
+                        I am able to develop and implement an inclusive enterprise culture in my organisation (and in others).
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        QM in verschiedenen Bildungssektoren
+                    </de>
+                    <en>
+                        Crosscultural management
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe von speziellen Qualitätsmanagementsystemen für den Bildungsbereich gehört.
+                        </de>
+                        <en>
+                        I have a notion what crosscultural management means.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne einige unterschiedliche QM-Systeme im Bildungsbereich und kann diese grob unterscheiden. 
+                        </de>
+                        <en>
+                        I am aware of the purpose and advantages of crosscultural management.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne zentrale Elemente verschiedener QM-Systeme im Bildungsbereich und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren. 
+                        </de>
+                        <en>
+                        I can explain the concept and the main elements of crosscultural management.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, mehrere QM-Systeme im Hinblick auf Ihre Passung in bestimmten Bildungseinrichtungen und -sektoren zu analysieren. 
+                        </de>
+                        <en>
+                        I’m able to implement singular actions for a crosscultural management in a given case.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann passende QM-Systeme in einer Bildungseinrichtung in der Praxis zu planen und einzuführen.
+                        </de>
+                        <en>
+                        I am able to develop and implement crosscultural management in my organisation (and in others).
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        QM in verschiedenen Bildungssektoren
+                    </de>
+                    <en>
+                        Onboarding techniques
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe von speziellen Qualitätsmanagementsystemen für den Bildungsbereich gehört.
+                        </de>
+                        <en>
+                        I know that integrating refugees need specific onboarding techniques.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne einige unterschiedliche QM-Systeme im Bildungsbereich und kann diese grob unterscheiden. 
+                        </de>
+                        <en>
+                        I can tell reasons of specific onboarding techniques for refugees in organisations and enterprises.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne zentrale Elemente verschiedener QM-Systeme im Bildungsbereich und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren. 
+                        </de>
+                        <en>
+                        I can explain different onboarding elements and techniques in regard to different target groups.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, mehrere QM-Systeme im Hinblick auf Ihre Passung in bestimmten Bildungseinrichtungen und -sektoren zu analysieren. 
+                        </de>
+                        <en>
+                        I’m able to implement singular onboarding techniques in specific cases.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann passende QM-Systeme in einer Bildungseinrichtung in der Praxis zu planen und einzuführen.
+                        </de>
+                        <en>
+                        I am able to develop and implement a strategic system for onboarding refugees and migrants in organisations and enterprises.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+        </categoryPages>
+    </categories>
+    <!--
+	###################################################################
+	#	Qualität und QM
+	###################################################################
+	-->
+    <categories>
+        <evaluateCategory>
+            1
+        </evaluateCategory>
+        <categoryName>
+            <de>
+                Qualität und QM
+            </de>
+            <en>
+                Competences on Recruitment of refugees
+            </en>
+        </categoryName>
+        <catcolor>
+            rgb(55,157,101)
+        </catcolor>
+        <categoryPages>
+            <pageEvaluate>
+                1
+            </pageEvaluate>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Qualität Allgemein
+                    </de>
+                    <en>
+                        Searching
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann den Begriff der Qualität mit meinen eigenen Worten erklären.
+                        </de>
+                        <en>
+                        I am aware that the searching process of refugees is a challenge.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe in meinen privaten und professionellen Tätigkeitsbereichen für eine qualitative Verbesserungen gesorgt.
+                        </de>
+                        <en>
+                        I understand the basic reasons for the challenges in the searching process of refugees.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann Qualitätsfaktoren in meiner Einrichtung einschätzen und diskutieren. 
+                        </de>
+                        <en>
+                        I am able to take on board singular searching activities in my own (selected) campaigns.
+                        </en>
+                    </blockAnswer>
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen umzusetzen. 
+                        </de>
+                        <en>
+                        I have been creating and executing searching approaches for refugees for my professional domain.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen strategisch einzuführen. 
+                        </de>
+                        <en>
+                        I am able to strategically integrate the approaches in our company’s searching strategy.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Qualitätsmanagement
+                    </de>
+                    <en>
+                        Screening (instruments etc.)
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe eine rudimentäre Vorstellung über QualitätsMANAGEMENT.
+                        </de>
+                        <en>
+                        I am aware that the screening process of refugees is a specific challenge.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne die Grundlagen des QM und habe diese bereits angewendet.
+                        </de>
+                        <en>
+                        I understand the basic reasons for the challenges in the screening process of refugees.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne alle  zentralen Elemente eines QM-Systems und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren.
+                        </de>
+                        <en>
+                        I am able to take on board singular specific screening instruments in my own campaigns.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen systematisch einzuführen.
+                        </de>
+                        <en>
+                        I have been creating and executing a toolbox for screening instruments for refugees for my professional domain.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage ein QM in einer Einrichtung einzuführen. 
+                        </de>
+                        <en>
+                        I am able to strategically integrate the approaches in our company’s searching strategy.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+        </categoryPages>
+    </categories>
+    <!--
+	###################################################################
+	#	Qualität und QM
+	###################################################################
+	-->
+    <categories>
+        <evaluateCategory>
+            1
+        </evaluateCategory>
+        <categoryName>
+            <de>
+                Qualität und QM
+            </de>
+            <en>
+                Competences on Recruitment of refugees
+            </en>
+        </categoryName>
+        <catcolor>
+            rgb(185,168,40)
+        </catcolor>
+        <categoryPages>
+            <pageEvaluate>
+                1
+            </pageEvaluate>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Qualität Allgemein
+                    </de>
+                    <en>
+                        Searching
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann den Begriff der Qualität mit meinen eigenen Worten erklären.
+                        </de>
+                        <en>
+                        I am aware that the searching process of refugees is a challenge.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe in meinen privaten und professionellen Tätigkeitsbereichen für eine qualitative Verbesserungen gesorgt.
+                        </de>
+                        <en>
+                        I understand the basic reasons for the challenges in the searching process of refugees.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kann Qualitätsfaktoren in meiner Einrichtung einschätzen und diskutieren. 
+                        </de>
+                        <en>
+                        I am able to take on board singular searching activities in my own (selected) campaigns.
+                        </en>
+                    </blockAnswer>
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen umzusetzen. 
+                        </de>
+                        <en>
+                        I have been creating and executing searching approaches for refugees for my professional domain.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen strategisch einzuführen. 
+                        </de>
+                        <en>
+                        I am able to strategically integrate the approaches in our company’s searching strategy.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+            <blocks type="radio">
+                <blockQuestion>
+                    <de>
+                        Qualitätsmanagement
+                    </de>
+                    <en>
+                        Screening (instruments etc.)
+                    </en>
+                </blockQuestion>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich habe eine rudimentäre Vorstellung über QualitätsMANAGEMENT.
+                        </de>
+                        <en>
+                        I am aware that the screening process of refugees is a specific challenge.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>1</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne die Grundlagen des QM und habe diese bereits angewendet.
+                        </de>
+                        <en>
+                        I understand the basic reasons for the challenges in the screening process of refugees.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>2</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich kenne alle  zentralen Elemente eines QM-Systems und kann diese (im Groben) erklären bzw. aktiv (mit)diskutieren.
+                        </de>
+                        <en>
+                        I am able to take on board singular specific screening instruments in my own campaigns.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>3</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage, qualitätsverbessernde Maßnahmen systematisch einzuführen.
+                        </de>
+                        <en>
+                        I have been creating and executing a toolbox for screening instruments for refugees for my professional domain.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>4</answerValue>
+                </blockAnswers>
+                <blockAnswers>
+                    <blockAnswer>
+                        <de>
+                        Ich bin in der Lage ein QM in einer Einrichtung einzuführen. 
+                        </de>
+                        <en>
+                        I am able to strategically integrate the approaches in our company’s searching strategy.
+                        </en>
+                    </blockAnswer>
+
+                    <answerValue>5</answerValue>
+                </blockAnswers>
+                <weight>
+                    1
+                </weight>
+            </blocks>
+        </categoryPages>
+    </categories>
+    <!--
+	###################################################################
+	#	Result
+	###################################################################
+	-->
+    <resultpage>
+        <header>
+            <title>
+                <de>
+                    Vielen Dank für’s Ausfüllen.
+                </de>
+                <en>
+                    Thank you for filling out!
+                </en>
+            </title>
+            <description>
+                <de>
+                    Bitte speichern Sie die PDF zunächst auf Ihrem Computer.
+                </de>
+                <en>
+                    Please save the PDF on your computer first.
+                </en>
+            </description>
+        </header>
+        <body>
+            <showtomsstyle>1</showtomsstyle>
+            <interpretation required="1">
+                <description>
+                    <de>
+                        <![CDATA[<p>Wie können wir die Ergebnisse interpretieren?</p><p>Je höher die Punktzahl für eine Kategorie, desto mehr ist diese Kategorie in Ihrem Fall relevant.
+                            Der konkrete Wert kann aus den Kreisen abgeleitet werden, die sogenannte Perzentile anzeigen.
+                            Ein Wert nahe 50% bedeutet, dass 50% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben - was bedeutet, dass Sie mit dem Durchschnitt übereinstimmen.
+                            Ein Wert nahe 20% bedeutet, dass nur 20% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben und die restlichen 80% einen höheren Wert haben - in diesem Fall passen Sie zu einem relativ niedrigen Grad zu diesem Typ (dieser Eigenschaften).
+                            Ein Wert nahe 80% bedeutet, dass 80% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben und nur 20% einen höheren Wert haben - in diesem Fall passen Sie zu einem relativ hohen Grad zu diesem Typ (dieser Eigenschaften).
+                        </p>]]>
+                    </de>
+                    <en><![CDATA[
+                        <p>How can we interpret the results?</p><p>The higher the score for a category the more this category is relevant in your case.
+                            The concrete value can be derived from the circles that display so called percentils.
+                            A score near to 50% means that 50% of the comparable population have a similar or lower value - which means that you match with the average.
+                            A score near to 20% means that only 20% of the comparable population have a similar or lower value and the remaining 80% have a higher value - in this case you are matching to a relatively low degree to that type (this characteristics).
+                            A score near to 80% means that 80% of the comparable population have a similar or lower value and only 20% have a higher value - in this case you are matching to a relatively high degree to that type (this characteristics).
+                        </p>]]>
+                    </en>
+                </description>
+            </interpretation>
+            <interpretation required="1">
+                <image_categories>
+                    <de>
+                            Diverger
+                    </de>
+                    <en>
+                            Diverger
+                    </en>
+                </image_categories>
+                <image_categories>
+                    <de>
+                            Assimilitor
+                    </de>
+                    <en>
+                            Assimilitor
+                    </en>
+                </image_categories>
+                <image_categories>
+                    <de>
+                            Converger
+                    </de>
+                    <en>
+                            Converger
+                    </en>
+                </image_categories>
+                <image_categories>
+                    <de>
+                            Accomodator
+                    </de>
+                    <en>
+                            Accomodator
+                    </en>
+                </image_categories>
+                <description>
+                    <de><![CDATA[
+                        <p>
+                            Wie Sie sehen können, haben die vier Felder den Titel: Diverger, Assimilitor, Converger und Accomodator.
+                            Dies sind die 4 Hauptlehrpfade nach dem KOLB-Modell.
+                            Dein Lernstil ist auf Hochtouren, wenn dein Wert weit im jeweiligen Feld liegt.
+                            Wenn Ihr Wert zu einem benachbarten Feld eng ist, kann dies eine Mischung aus Lernstil genannt werden.
+                            Wenn Ihr Wert in der Nähe des Zentrums liegt, haben Sie einen ausgewogenen Lernstil mit Elementen aus allen Kategorien.
+                            Die folgenden Aussagen sind noch nicht durch abgeschlossene Forschungsdaten belegt; Sie basieren auf den Erfahrungen der ersten und zweiten Version von Kolbs \"Lernstil-Inventar\".
+                            Diverager bevorzugen konkrete Erfahrung und reflektierende Beobachtung. Ihre Stärke ist eine einfallsreiche Fähigkeit. Sie neigen dazu, konkrete Situationen aus verschiedenen Blickwinkeln zu betrachten und interessieren sich für Menschen. Sie haben ein breites kulturelles Interesse und spezialisieren sich oft auf künstlerische Aktivitäten. Dieser Lernstil ist typisch für Geisteswissenschaften und verwandte Berufe.
+                            Assimilatoren bevorzugen reflektive Beobachtung und abstrakte Konzeptualisierung. Ihre Stärke ist die Generierung theoretischer Modelle. Sie neigen dazu, Schlussfolgerungen zu ziehen und sich lieber mit Dingen und Theorien als mit Personen zu beschäftigen. Sie integrieren einzelne Fakten in Begriffe und Konzepte. Dieser Lernstil ist typisch für Mathematiker und Theoretiker und verwandte Berufe.
+                            Convergers bevorzugen abstrakte Konzeptualisierung und aktives Experimentieren. Ihre Stärke ist die Ausführung von Ideen. Sie neigen zu hypothetisch-deduktiven Schlussfolgerungen und ziehen es vor, sich mit Dingen und Theorien zu beschäftigen (die sie gerne untersuchen) als mit Personen. Sie haben enge technische Interessen und spezialisieren sich oft auf angewandte Wissenschaften. Dieser Lernstil ist typisch für Ingenieure.
+                            Accomodatoren bevorzugen aktives Experimentieren und konkrete Erfahrung. Ihre Stärke ist die Anordnung von Aktivitäten. Sie neigen zur intuitiven Problemlösung durch Versuch und Irrtum und beschäftigen sich lieber mit Personen als mit Dingen und Theorien. Sie würden einzelnen Fakten mehr vertrauen als theoretischen Konstrukten und spezialisieren sich oft auf praktisches Handeln. Dieser Lernstil ist typisch für Sales Manager.
+                        </p>]]>
+                    </de>
+                    <en><![CDATA[
+                        <p>
+                            As you can see the four fields are entitled: Diverger, Assimilitor, Converger und Accomodator.
+                            These are the 4 main Learning stiles according to the model of KOLB.
+                            Your learning stile is in high gear when your value is situated far in the respective field.
+                            When your value is narrow to a neighbouring field one can name this a mixture type of learning style.
+                            If your value is near to the center you have a balanced learning style that has elements from all categories.
+                            The following statements are not yet proven by completed research data; they are grounded on experiences from the first and second version of Kolbs \"Learning style inventory\".
+                            Divergers prefere concrete experience and reflective observation. Their strenght is an imaginative ability. They have a tendency for regarding concrete situations from various perspectives and they are interested in people. They have a broad cultural interest and often specialize in artistic activities. This learning style is typical for humanities and related professions.
+                            Assimilators prefere reflective observation and abstract conceptualization. Their strength is the generation of theoretical models. They have a tendency for in-ductive conclusions and prefer to occupy themselves with things and theories rather than with persons. They integrate single facts to terms and concepts. This learning style is typical for mathematicians and theoretical sciences and related professions.
+                            Convergers prefere abstract conceptualization and active experimentation. Their strength is the execution of ideas. They have a tendency for hypotheical-deductive conclusions and prefer to occupy themselves with things and theories (which they like to examine) than with persons. They have narrow technical interests and often specialize in applied sciences. This learning style is typical for engineers.
+                            Accomodators prefere active experimentation and concrete experience. Their strenght is the arrangement of activities. They have a tendency for intuitive problem solving by trial-and-error and prefer to occupy themselves with persons rather than things and theories. They would trust single facts more than theoretical constructs and often specialize in practical doing. This learning style is typical for sales managers.
+                        </p>]]>
+                    </en>
+                </description>
+            </interpretation>
+            <!--
+            ###################################################################
+            #	Literature
+            ###################################################################
+            -->
+            <literature required="1">
+                <p>
+                    Ferrell, Barbara G.: A Factor Analytic Comparison of Four Learning-Styles Instruments. In: Journal of Educational Psychology, 1983, Heft 1, S. 33-39.
+                </p>
+                <p>
+                    Fischer, Barbara B. / Fischer, Louis: Styles in Teaching and Learning. In: Educational Leadership, 1979, S. 245-254. 
+                </p>
+                <p>
+                    Flechsig, Karl-Heinz: Kleines Handbuch didaktischer Modelle, Eichenzell, Neuland - Verlag für lebendiges Lernen, 1996
+                </p>
+                <p>
+                    Gabriel, Alfred/Haller, Hans-Dieter: Untersuchungen zu Lernstilen von Erwachsenen an Abendgymnasien. In: Festschrift â€ž10 Jahre Abendgymnasium GÃ¶ttingenâ€œ, 4. Juni 1983, S. 11-20.
+                </p>
+                <p>
+                    Haller, Hans-Dieter: An die Tür des Geistes klopfen. Lernen und ProblemlÃ¶sen. In: ManagerSeminar, 1992, 7, S. 42-49
+                </p>
+                <p>
+                    Heue, Matthias: Die Erfassung kultureller Wertorientierungen an Hand der AnsÃ¤tze von Kluckhohn/Strodtbeck und Hofstede und deren VerwendungsmÃ¶glichkeiten fÃ¼r Situationen des Kulturaustausches, Diplom-Arbeit, Fachbereich Sozialwissenschaften, UniversitÃ¤t GÃ¶ttingen, 1995.
+                </p>
+                <p>
+                    Hofstede, Geert: Culture`s Consequences. International Differences in Work-Related Values. Beverly Hills - London - New York, Sage Publications. 1980.
+                </p>
+                <p>
+                    Hofstede, Geert:Cultures and Organizations. Software of the Mind. London etc., McGraw-Hill Book Company, 1991.
+                </p>
+                <p>
+                    Hofstede, Geert: Interkulturelle Zusammenarbeit. Wiesbaden, Gabler, 1993.
+                </p>
+                <p>
+                    Katz, Noomi: : Individual learning style: Israeli norms and cross-cultural equivalence of Kolb\'s Learning Style Inventory. In: Journal-of-Cross-Cultural-Psychology, 1988, S. 361-379.
+                </p>
+                <p>
+                    Kolb, David A.: The Learning Style Inventory. Technical Manual. Boston, Mass., 1976.
+                </p>
+                <p>
+                    Kolb, David A.: Learning Styles and Disciplinary Differences. In: Chickering, Arthur W. (Hrsg.), The Modern American College. San Francisco etc.. 1981, S. 232 - 255.
+                </p>
+                <p>
+                    Pask, Gordon: Styles and Strategies of Learning. In: British Journal of Educational Psychology. 1976, S. 128-148.
+                </p>
+                <p>
+                    Pask, Gordon: Learning Strategies, Teaching Strategies, and Conceptual or Learning Style. In: Schmeck, Ronald R. (Hrsg.), Learning Strategies and Learning Styles. New York - London, Plenum Press, 1988, S. 83-100.
+                </p>
+                <p>
+                    Quinn, N. &amp; Holland, D., Culture and Cognition, in: Holland, D. &amp; Quinn, N. (eds.), Cultural Models in Language and Thought. Cambridge MA 1987.
+                </p>
+                <p>
+                    Richardson, John T.E.: Cultural specifity of approaches to studying in higher education: A literature survey. In: Higher Education, 1994, S. 449-468.
+                </p>
+                <p>
+                    Sandhaas, Bernd: Lernen in Fremder Kultur.- Didaktische Orientierungen bei angehenden Hochschullehrern aus LÃ¤ndern der Dritten Welt im Auslandsstudium in der Bundesrepublik Deutschland. GÃ¶ttingen, Zentrum fÃ¼r didaktische Studien, 1988.
+                </p>
+                <p>
+                    Schank, R. &amp; Abelson, R., Scripts, Plans, Goals, and Understanding: An Inquiry into Human Knowlege Structure, Hillsdale 1977.
+                </p>
+                <p>
+                    Schrader, Josef: Lerntypen bei Erwachsenen, empirische Analysen zum Lernen und Lehren in der beruflichen Weiterbildung. Weinheim, Dt. Studien-Verlag, 1994. 
+                </p>
+                <p>
+                    Tait, H. / Entwistle, N.: Identifying students at risk through ineffective study strategies. In: Higher Education, 31, 1996, S. 97-116.
+                </p>
+            </literature>
+        </body>
+    </resultpage>
+</questionnaire>

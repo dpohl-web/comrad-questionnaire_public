@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("lato100"), url(../../../fonts/lato100.woff) format("woff");
+  src: local("lato100"), url(../../../fonts/lato100.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("lato300"), url(../../../fonts/lato300.woff) format("woff");
+  src: local("lato300"), url(../../../fonts/lato300.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("lato400"), url(../../../fonts/lato400.woff) format("woff");
+  src: local("lato400"), url(../../../fonts/lato400.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("lato700"), url(../../../fonts/lato700.woff) format("woff");
+  src: local("lato700"), url(../../../fonts/lato700.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("lato900"), url(../../../fonts/lato900.woff) format("woff");
+  src: local("lato900"), url(../../../fonts/lato900.woff2) format("woff2"); }

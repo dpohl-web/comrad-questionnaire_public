@@ -1,0 +1,159 @@
+.applicationheader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 100%;
+  color: #ffffff;
+  z-index: 1000;
+  background-color: #2997ab;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat; }
+  .applicationheader .header__foundation-icon {
+    font-size: 40px;
+    cursor: pointer;
+    opacity: 1;
+    color: #ffffff;
+    transition: all .3s ease-in-out; }
+    .applicationheader .header__foundation-icon:hover {
+      opacity: 0.8; }
+  .applicationheader .applicationheader__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 16px;
+    color: #ffffff; }
+    @media screen and (max-width: 800px) {
+      .applicationheader .applicationheader__title {
+        font-size: 20px;
+        margin: 0; } }
+    @media screen and (max-width: 320px) {
+      .applicationheader .applicationheader__title {
+        font-size: 20px; } }
+  .applicationheader .applicationheader__settingsLink {
+    height: 40px;
+    cursor: pointer; }
+    .applicationheader .applicationheader__settingsLink:hover {
+      opacity: 0.8; }
+  .applicationheader .applicationheader__li {
+    display: inline-block;
+    margin-right: 16px; }
+    .applicationheader .applicationheader__li a {
+      text-decoration: none; }
+    .applicationheader .applicationheader__li:last-child {
+      margin: 0; }
+
+.applicationheader__progress-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  background: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 1px; }
+
+.applicationheader__progress-inner {
+  height: 100%; }
+
+.applicationheader__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  height: 40px;
+  padding: 0 16px;
+  background: #ffffff;
+  border-radius: 500px;
+  cursor: pointer; }
+  .applicationheader__button:hover {
+    opacity: 0.8; }
+  .applicationheader__button span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+.applicationheader__wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 8px;
+  width: 100%;
+  overflow: hidden; }
+  @media screen and (max-width: 800px) {
+    .applicationheader__wrapper {
+      display: inline-block;
+      text-align: center; } }
+
+.applicationheader__nav {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0; }
+  @media screen and (max-width: 800px) {
+    .applicationheader__nav {
+      display: none; } }
+
+.applicationheader__logo {
+  flex-shrink: 0;
+  height: auto;
+  max-height: 72px;
+  max-width: 180px; }
+  @media screen and (max-width: 800px) {
+    .applicationheader__logo {
+      margin-top: 8px;
+      max-height: 31.5px;
+      width: auto;
+      max-width: 180px; } }
+
+.applicationheader__navtoggle {
+  display: none;
+  position: absolute;
+  left: 100%;
+  width: 30px;
+  height: 30px;
+  border-bottom-left-radius: 100%;
+  top: 0;
+  background: #9c9c9c;
+  transform: translate3d(-100%, 0, 0);
+  cursor: pointer;
+  z-index: 10; }
+  @media screen and (max-width: 800px) {
+    .applicationheader__navtoggle {
+      display: block; } }
+  .applicationheader__navtoggle .applicationheader__navtoggle-icon {
+    position: absolute;
+    top: 2px;
+    left: 19px;
+    transform: translate3d(-50%, 0, 0);
+    font-family: "foundation-icons";
+    font-size: 14px; }
+
+.applicationheader__mobile-nav-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translate3d(0, -100%, 0);
+  transition: all .3s ease-in-out;
+  z-index: 5; }
+  @media screen and (max-width: 800px) {
+    .applicationheader__mobile-nav-wrapper.applicationheader__mobile-nav-down {
+      transform: translate3d(0, 0, 0); } }
+
+.applicationheader__mobile-nav {
+  width: 100%;
+  text-align: center; }
+  @media screen and (max-width: 800px) {
+    .applicationheader__mobile-nav {
+      display: inline-block; } }
+  .applicationheader__mobile-nav ul {
+    list-style: none;
+    padding-inline-start: 0; }
+  .applicationheader__mobile-nav li {
+    margin-bottom: 16px; }
+    .applicationheader__mobile-nav li a {
+      text-decoration: none; }

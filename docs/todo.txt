@@ -1,0 +1,22 @@
+Language Switch:
+
+1. Content Language wird ermittelt über Browser language:
+	1. Browser Language = ?
+	2. Browser Language in content languages verfügbar? conent.language = Browser language ansosnten content language = vom admin ausgeählte default language
+
+1. Immer wenn Sprache sich ändert, muss ui language in application container ermittelt werden und dann in die child Komponenten abgegebn werden.
+
+2. Wenn content language in als ui language verfügbar ist, wird es ui language, ansosnten en. 
+
+2. Damt dann alle finduilanguage Funktinen ersetzen
+
+
+
+Nach Update:
+- Toms Zielscheibe testen wegen svg
+- NavButton testen
+- Animatin wegen react spring
+- Router weg react-router-dom
+
+
+

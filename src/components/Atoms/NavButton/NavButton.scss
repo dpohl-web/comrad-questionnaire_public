@@ -1,0 +1,14 @@
+@import "../../../scss/variables.scss";
+.navbutton {
+    .navbutton__icon {
+        font-size: $button__height;
+        cursor: pointer;
+        opacity: 1;
+        color: $color__white;
+        transition: all .3s ease-in-out;
+    
+        &:hover {
+        opacity: 0.8;
+        }
+    }
+}

@@ -1,0 +1,1869 @@
+<?xml version="1.0"?>
+<questionnaire>    
+	<head>
+		<title>
+            <de>
+                Lernstildiagnose
+            </de>
+            <en>
+                Learningstyle
+            </en>
+        </title>
+		<meta type="survey"/>
+		<language fallback="de_DE"/>		
+	</head>
+	<!--
+	###################################################################
+	#	Allgemeine Angaben
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Allgemeine Angaben
+            </de>
+            <en>
+                General Information
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                0
+            </evaluate>
+            <block id="wie_alt" type="datepicker">
+                <question min_required="1">
+                    <de>
+                        Geburtstag
+                    </de>
+                    <en>
+                        Birthday
+                    </en>
+                </question>
+            </block>
+            <block id="geschlecht" type="radio">
+                <question min_required="1">
+                    <de>
+                        Geschlecht
+                    </de>
+                    <en>
+                        Gender
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        weiblich
+                    </de>
+                    <en>
+                        female
+                    </en>
+                    <value>female</value>
+                </answer>
+                <answer>
+                    <de>
+                        männlich
+                    </de>
+                    <en>
+                        male
+                    </en>
+                    <value>male</value>
+                </answer>
+                <answer>
+                    <de>
+                        nicht angegeben
+                    </de>
+                    <en>
+                        not selected
+                    </en>
+                    <value>not selected</value>
+                </answer>
+            </block>
+            <block id="firstname" type="input">
+                <question min_required="1">
+                    <de>
+                        Beruf, Studienzweig, Spezialisierung
+                    </de>
+                    <en>
+                        University, Field of Study
+                    </en>    
+                </question>
+            </block>
+        </page>
+    </cat>
+    <!--
+	###################################################################
+	#	Concrete Experience
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Spotting opportunities
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                        Identify, create and seize opportunities.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that looked for opportunities is vital for entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise opportunities to create value in my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain what makes an opportunity to create value.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different analytical approaches to identify entrepreneurial opportunities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can judge complex opportunities for creating value and decide whether to follow these up at different levels of the system I am working in (for example, micro, meso or macro).
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Focus on challenges
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        I rather inquire the character of each matter, each incident or person and less what these have in common with others.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        I extract most from the exchange with others, from the feed-back and discussions with like-minded people/costudents.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich orientiere mich eher an Menschen, die die gleiche Situation haben wie ich und höre weniger auf so genannte Experten.
+                    </de>
+                    <en>
+                        I rather orient myself on people who are experiencing the same situation like mine and listen less to so-called experts.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+
+
+    <!--
+	###################################################################
+	#	Concrete Experience
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Spotting opportunities
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                        Identify, create and seize opportunities.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that looked for opportunities is vital for entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise opportunities to create value in my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain what makes an opportunity to create value.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different analytical approaches to identify entrepreneurial opportunities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can judge complex opportunities for creating value and decide whether to follow these up at different levels of the system I am working in (for example, micro, meso or macro).
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Focus on challenges
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        I rather inquire the character of each matter, each incident or person and less what these have in common with others.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        I extract most from the exchange with others, from the feed-back and discussions with like-minded people/costudents.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich orientiere mich eher an Menschen, die die gleiche Situation haben wie ich und höre weniger auf so genannte Experten.
+                    </de>
+                    <en>
+                        I rather orient myself on people who are experiencing the same situation like mine and listen less to so-called experts.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+
+        <!--
+	###################################################################
+	#	Concrete Experience
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Spotting opportunities
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                        Identify, create and seize opportunities.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that looked for opportunities is vital for entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise opportunities to create value in my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain what makes an opportunity to create value.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different analytical approaches to identify entrepreneurial opportunities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can judge complex opportunities for creating value and decide whether to follow these up at different levels of the system I am working in (for example, micro, meso or macro).
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Focus on challenges
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        I rather inquire the character of each matter, each incident or person and less what these have in common with others.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        I extract most from the exchange with others, from the feed-back and discussions with like-minded people/costudents.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich orientiere mich eher an Menschen, die die gleiche Situation haben wie ich und höre weniger auf so genannte Experten.
+                    </de>
+                    <en>
+                        I rather orient myself on people who are experiencing the same situation like mine and listen less to so-called experts.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+
+        <!--
+	###################################################################
+	#	Concrete Experience
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Spotting opportunities
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                        Identify, create and seize opportunities.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that looked for opportunities is vital for entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise opportunities to create value in my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain what makes an opportunity to create value.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different analytical approaches to identify entrepreneurial opportunities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can judge complex opportunities for creating value and decide whether to follow these up at different levels of the system I am working in (for example, micro, meso or macro).
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Focus on challenges
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        I rather inquire the character of each matter, each incident or person and less what these have in common with others.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        I extract most from the exchange with others, from the feed-back and discussions with like-minded people/costudents.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich orientiere mich eher an Menschen, die die gleiche Situation haben wie ich und höre weniger auf so genannte Experten.
+                    </de>
+                    <en>
+                        I rather orient myself on people who are experiencing the same situation like mine and listen less to so-called experts.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+
+        <!--
+	###################################################################
+	#	Concrete Experience
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Spotting opportunities
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                        Identify, create and seize opportunities.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that looked for opportunities is vital for entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise opportunities to create value in my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain what makes an opportunity to create value.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different analytical approaches to identify entrepreneurial opportunities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can judge complex opportunities for creating value and decide whether to follow these up at different levels of the system I am working in (for example, micro, meso or macro).
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Focus on challenges
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        I rather inquire the character of each matter, each incident or person and less what these have in common with others.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        I extract most from the exchange with others, from the feed-back and discussions with like-minded people/costudents.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich orientiere mich eher an Menschen, die die gleiche Situation haben wie ich und höre weniger auf so genannte Experten.
+                    </de>
+                    <en>
+                        I rather orient myself on people who are experiencing the same situation like mine and listen less to so-called experts.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I disagree with this statement
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I rather disagree with this statement
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I rather agree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I fully agree with this statement
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+    <resultpage>
+        <header>
+            <title>
+                <de>
+                    Lernstildiagnose
+                </de>
+                <en>
+                    Learningstyle
+                </en>
+            </title>
+        </header>
+        <body>
+            <interpretation number="1" required="1">
+                <description>
+                    <de>
+                        <p>
+                            Wie können wir die Ergebnisse interpretieren?
+                        </p>
+                        <p>
+                            Je höher die Punktzahl für eine Kategorie, desto mehr ist diese Kategorie in Ihrem Fall relevant.
+                        </p>
+                        <p>
+                            Der konkrete Wert kann aus den Kreisen abgeleitet werden, die sogenannte Perzentile anzeigen.
+                        </p>
+                        <p>
+                            Ein Wert nahe 50% bedeutet, dass 50% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben - was bedeutet, dass Sie mit dem Durchschnitt übereinstimmen.
+                        </p>
+                        <p>
+                            Ein Wert nahe 20% bedeutet, dass nur 20% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben und die restlichen 80% einen höheren Wert haben - in diesem Fall passen Sie zu einem relativ niedrigen Grad zu diesem Typ (dieser Eigenschaften).
+                        </p>
+                        <p>
+                            Ein Wert nahe 80% bedeutet, dass 80% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben und nur 20% einen höheren Wert haben - in diesem Fall passen Sie zu einem relativ hohen Grad zu diesem Typ (dieser Eigenschaften).
+                        </p>
+                    </de>
+                    <en>
+                        <p>
+                            How can we interpret the results?
+                        </p>
+                        <p>
+                            The higher the score for a category the more this category is relevant in your case.
+                        </p>
+                        <p>
+                            The concrete value can be derived from the circles that display so called percentils.
+                        </p>
+                        <p>
+                            A score near to 50% means that 50% of the comparable population have a similar or lower value - which means that you match with the average.
+                        </p>
+                        <p>
+                            A score near to 20% means that only 20% of the comparable population have a similar or lower value and the remaining 80% have a higher value - in this case you are matching to a relatively low degree to that type (this characteristics).
+                        </p>
+                        <p>
+                            A score near to 80% means that 80% of the comparable population have a similar or lower value and only 20% have a higher value - in this case you are matching to a relatively high degree to that type (this characteristics).
+                        </p>
+                    </en>
+                </description>
+            </interpretation>
+            <interpretation number="2" required="1">
+                <image_categories>
+                    <image_category>
+                        <de>
+                            Diverger
+                        </de>
+                        <en>
+                            Diverger
+                        </en>
+                    </image_category>
+                    <image_category>
+                        <de>
+                            Assimilitor
+                        </de>
+                        <en>
+                            Assimilitor
+                        </en>
+                    </image_category>
+                    <image_category>
+                        <de>
+                            Converger
+                        </de>
+                        <en>
+                            Converger
+                        </en>
+                    </image_category>
+                    <image_category>
+                        <de>
+                            Accomodator
+                        </de>
+                        <en>
+                            Accomodator
+                        </en>
+                    </image_category>
+                </image_categories>
+                <description>
+                    <de>
+                        <p>
+                            Wie Sie sehen können, haben die vier Felder den Titel: Diverger, Assimilitor, Converger und Accomodator.
+                        </p>
+                        <p>
+                            Dies sind die 4 Hauptlehrpfade nach dem KOLB-Modell.
+                        </p>
+                        <p>
+                            Dein Lernstil ist auf Hochtouren, wenn dein Wert weit im jeweiligen Feld liegt.
+                        </p>
+                        <p>
+                            Wenn Ihr Wert zu einem benachbarten Feld eng ist, kann dies eine Mischung aus Lernstil genannt werden.
+                        </p>
+                        <p>
+                            Wenn Ihr Wert in der Nähe des Zentrums liegt, haben Sie einen ausgewogenen Lernstil mit Elementen aus allen Kategorien.
+                        </p>
+                        <p>
+                            Die folgenden Aussagen sind noch nicht durch abgeschlossene Forschungsdaten belegt; Sie basieren auf den Erfahrungen der ersten und zweiten Version von Kolbs \"Lernstil-Inventar\".
+                        </p>
+                        <p>
+                            Diverager bevorzugen konkrete Erfahrung und reflektierende Beobachtung. Ihre Stärke ist eine einfallsreiche Fähigkeit. Sie neigen dazu, konkrete Situationen aus verschiedenen Blickwinkeln zu betrachten und interessieren sich für Menschen. Sie haben ein breites kulturelles Interesse und spezialisieren sich oft auf künstlerische Aktivitäten. Dieser Lernstil ist typisch für Geisteswissenschaften und verwandte Berufe.
+                        </p>
+                        <p>
+                            Assimilatoren bevorzugen reflektive Beobachtung und abstrakte Konzeptualisierung. Ihre Stärke ist die Generierung theoretischer Modelle. Sie neigen dazu, Schlussfolgerungen zu ziehen und sich lieber mit Dingen und Theorien als mit Personen zu beschäftigen. Sie integrieren einzelne Fakten in Begriffe und Konzepte. Dieser Lernstil ist typisch für Mathematiker und Theoretiker und verwandte Berufe.
+                        </p>
+                        <p>
+                            Convergers bevorzugen abstrakte Konzeptualisierung und aktives Experimentieren. Ihre Stärke ist die Ausführung von Ideen. Sie neigen zu hypothetisch-deduktiven Schlussfolgerungen und ziehen es vor, sich mit Dingen und Theorien zu beschäftigen (die sie gerne untersuchen) als mit Personen. Sie haben enge technische Interessen und spezialisieren sich oft auf angewandte Wissenschaften. Dieser Lernstil ist typisch für Ingenieure.
+                        </p>
+                        <p>
+                            Accomodatoren bevorzugen aktives Experimentieren und konkrete Erfahrung. Ihre Stärke ist die Anordnung von Aktivitäten. Sie neigen zur intuitiven Problemlösung durch Versuch und Irrtum und beschäftigen sich lieber mit Personen als mit Dingen und Theorien. Sie würden einzelnen Fakten mehr vertrauen als theoretischen Konstrukten und spezialisieren sich oft auf praktisches Handeln. Dieser Lernstil ist typisch für Sales Manager.
+                        </p>
+                    </de>
+                    <en>
+                        <p>
+                            As you can see the four fields are entitled: Diverger, Assimilitor, Converger und Accomodator.
+                        </p>
+                        <p>
+                            These are the 4 main Learning stiles according to the model of KOLB.
+                        </p>
+                        <p>
+                            Your learning stile is in high gear when your value is situated far in the respective field.
+                        </p>
+                        <p>
+                            When your value is narrow to a neighbouring field one can name this a mixture type of learning style.
+                        </p>
+                        <p>
+                            If your value is near to the center you have a balanced learning style that has elements from all categories.
+                        </p>
+                        <p>
+                            The following statements are not yet proven by completed research data; they are grounded on experiences from the first and second version of Kolbs \"Learning style inventory\".
+                        </p>
+                        <p>
+                            Divergers prefere concrete experience and reflective observation. Their strenght is an imaginative ability. They have a tendency for regarding concrete situations from various perspectives and they are interested in people. They have a broad cultural interest and often specialize in artistic activities. This learning style is typical for humanities and related professions.
+                        </p>
+                        <p>
+                            Assimilators prefere reflective observation and abstract conceptualization. Their strength is the generation of theoretical models. They have a tendency for in-ductive conclusions and prefer to occupy themselves with things and theories rather than with persons. They integrate single facts to terms and concepts. This learning style is typical for mathematicians and theoretical sciences and related professions.
+                        </p>
+                        <p>
+                            Convergers prefere abstract conceptualization and active experimentation. Their strength is the execution of ideas. They have a tendency for hypotheical-deductive conclusions and prefer to occupy themselves with things and theories (which they like to examine) than with persons. They have narrow technical interests and often specialize in applied sciences. This learning style is typical for engineers.
+                        </p>
+                        <p>
+                            Accomodators prefere active experimentation and concrete experience. Their strenght is the arrangement of activities. They have a tendency for intuitive problem solving by trial-and-error and prefer to occupy themselves with persons rather than things and theories. They would trust single facts more than theoretical constructs and often specialize in practical doing. This learning style is typical for sales managers.
+                        </p>
+                    </en>
+                </description>
+            </interpretation>
+            <literature required="1">
+                <p>
+                    Ferrell, Barbara G.: A Factor Analytic Comparison of Four Learning-Styles Instruments. In: Journal of Educational Psychology, 1983, Heft 1, S. 33-39.
+                </p>
+                <p>
+                    Fischer, Barbara B. / Fischer, Louis: Styles in Teaching and Learning. In: Educational Leadership, 1979, S. 245-254. 
+                </p>
+                <p>
+                    Flechsig, Karl-Heinz: Kleines Handbuch didaktischer Modelle, Eichenzell, Neuland - Verlag für lebendiges Lernen, 1996
+                </p>
+                <p>
+                    Gabriel, Alfred/Haller, Hans-Dieter: Untersuchungen zu Lernstilen von Erwachsenen an Abendgymnasien. In: Festschrift â€ž10 Jahre Abendgymnasium GÃ¶ttingenâ€œ, 4. Juni 1983, S. 11-20.
+                </p>
+                <p>
+                    Haller, Hans-Dieter: An die Tür des Geistes klopfen. Lernen und ProblemlÃ¶sen. In: ManagerSeminar, 1992, 7, S. 42-49
+                </p>
+                <p>
+                    Heue, Matthias: Die Erfassung kultureller Wertorientierungen an Hand der AnsÃ¤tze von Kluckhohn/Strodtbeck und Hofstede und deren VerwendungsmÃ¶glichkeiten fÃ¼r Situationen des Kulturaustausches, Diplom-Arbeit, Fachbereich Sozialwissenschaften, UniversitÃ¤t GÃ¶ttingen, 1995.
+                </p>
+                <p>
+                    Hofstede, Geert: Culture`s Consequences. International Differences in Work-Related Values. Beverly Hills - London - New York, Sage Publications. 1980.
+                </p>
+                <p>
+                    Hofstede, Geert:Cultures and Organizations. Software of the Mind. London etc., McGraw-Hill Book Company, 1991.
+                </p>
+                <p>
+                    Hofstede, Geert: Interkulturelle Zusammenarbeit. Wiesbaden, Gabler, 1993.
+                </p>
+                <p>
+                    Katz, Noomi: : Individual learning style: Israeli norms and cross-cultural equivalence of Kolb\'s Learning Style Inventory. In: Journal-of-Cross-Cultural-Psychology, 1988, S. 361-379.
+                </p>
+                <p>
+                    Kolb, David A.: The Learning Style Inventory. Technical Manual. Boston, Mass., 1976.
+                </p>
+                <p>
+                    Kolb, David A.: Learning Styles and Disciplinary Differences. In: Chickering, Arthur W. (Hrsg.), The Modern American College. San Francisco etc.. 1981, S. 232 - 255.
+                </p>
+                <p>
+                    Pask, Gordon: Styles and Strategies of Learning. In: British Journal of Educational Psychology. 1976, S. 128-148.
+                </p>
+                <p>
+                    Pask, Gordon: Learning Strategies, Teaching Strategies, and Conceptual or Learning Style. In: Schmeck, Ronald R. (Hrsg.), Learning Strategies and Learning Styles. New York - London, Plenum Press, 1988, S. 83-100.
+                </p>
+                <p>
+                    Quinn, N. &amp; Holland, D., Culture and Cognition, in: Holland, D. &amp; Quinn, N. (eds.), Cultural Models in Language and Thought. Cambridge MA 1987.
+                </p>
+                <p>
+                    Richardson, John T.E.: Cultural specifity of approaches to studying in higher education: A literature survey. In: Higher Education, 1994, S. 449-468.
+                </p>
+                <p>
+                    Sandhaas, Bernd: Lernen in Fremder Kultur.- Didaktische Orientierungen bei angehenden Hochschullehrern aus LÃ¤ndern der Dritten Welt im Auslandsstudium in der Bundesrepublik Deutschland. GÃ¶ttingen, Zentrum fÃ¼r didaktische Studien, 1988.
+                </p>
+                <p>
+                    Schank, R. &amp; Abelson, R., Scripts, Plans, Goals, and Understanding: An Inquiry into Human Knowlege Structure, Hillsdale 1977.
+                </p>
+                <p>
+                    Schrader, Josef: Lerntypen bei Erwachsenen, empirische Analysen zum Lernen und Lehren in der beruflichen Weiterbildung. Weinheim, Dt. Studien-Verlag, 1994. 
+                </p>
+                <p>
+                    Tait, H. / Entwistle, N.: Identifying students at risk through ineffective study strategies. In: Higher Education, 31, 1996, S. 97-116.
+                </p>
+            </literature>
+        </body>
+    </resultpage>
+</questionnaire>

@@ -1,0 +1,28 @@
+@import '../../scss/variables.scss';
+.Application {
+    position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.application_noquestfound-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: $spacing--medium;
+}
+
+.application_noquestfound {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: $width--reading;
+    padding: $spacing--medium;
+    border: 10px solid $color__error;
+    border-radius: 20px;
+    background: $color__grey--darkest;
+    color: $color__white;
+    box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.41);
+}

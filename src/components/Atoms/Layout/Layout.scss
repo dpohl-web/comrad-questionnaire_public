@@ -1,0 +1,220 @@
+@import "../../../scss/fonts.scss";
+@import '../../../scss/foundation.scss';
+@import "../../../scss/variables.scss";
+
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   animation: App-logo-spin infinite 20s linear;
+//   height: 80px;
+// }
+
+// .App-header {
+//   background-color: #222;
+//   height: 150px;
+//   padding: 20px;
+//   color: white;
+// }
+
+// .App-title {
+//   font-size: 1.5em;
+// }
+
+// .App-intro {
+//   font-size: large;
+// }
+
+// @keyframes App-logo-spin {
+//   from { transform: rotate(0deg); }
+//   to { transform: rotate(360deg); }
+
+// }
+
+
+//for mahara cause of the foundation grid and rem
+html {
+  font-size: $base__fontSize !important;
+
+  body {
+    color: $color__font;
+  }
+}
+
+.layout {
+  height: 100vh;
+  font-family: $font-family;
+  font-size: $base__fontSize;
+
+  @media screen and (max-width: $breakpoint--small) {
+    font-size: $base__fontSize * 0.8;
+  }
+
+  input:checked ~ .switch-paddle {
+    // background: $color__primary;
+    background: black;
+
+  }
+
+  .switch-paddle {
+      border-radius: 500px;
+
+      &:after {
+        border-radius: 500px;
+      }
+  }
+
+  .button {
+    background-color: $color__primary;
+    // box-shadow: $squiz-shadow;
+  }
+
+  // .button:hover {
+  //   background-color: $color__primary--dark;
+  // }
+
+  .button:focus {
+    background-color: $color__primary;
+  }
+
+  //block border
+  .applicationbody__block-border {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+  }
+
+  .applicationbody__block-border--bottom-left {
+    left: 0;
+    background-image: linear-gradient(to left, $color__grey--darker 0%, rgba(0, 0, 0, 0) 80%);
+  }
+
+  .applicationbody__block-border--bottom-right {
+    right: 0;
+    background-image: linear-gradient(to right, $color__grey--darker 0%, rgba(0, 0, 0, 0) 80%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  p,
+  div,
+  span,
+  input,
+  label {
+    font-family: $font-family;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+      font-weight: 400;
+  }
+}
+
+.clearfix {
+  &:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
+.html-legend-wrapper, .compare__chart-legend {
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding-left: $spacing--medium;
+  }
+}
+
+.html-legend-icon, .compare__chart-legend-block {
+  height: 12px;
+  width: 30px;
+  border-width: 3px;
+  border-style: solid;
+  margin-right: $spacing--small;
+  flex-shrink: 0;
+}
+
+.html-legend-label, .compare__chart-legend-label {
+  position: relative;
+  top: -6px;
+  margin-right: $spacing--medium;
+
+  @media screen and (max-width: $breakpoint--small) {
+    top: -3px;
+  }
+}
+
+.margin-bottom--medium {
+  margin-bottom: $spacing--medium;
+}
+
+.margin-top--medium {
+  margin-top: $spacing--medium;
+}
+
+.padding--medium {
+  padding: $spacing--medium;
+}
+
+.router-animation-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#__react-alert__ {
+
+  div {
+    text-transform: initial !important;
+  }
+
+  > div {
+
+    > div {
+
+      > div {
+        border-radius: $border-radius !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

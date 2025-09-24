@@ -1,0 +1,29 @@
+@import '../../../scss/variables.scss';
+
+.custombutton {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: $button__height;
+	padding-right: $spacing--medium;
+	padding-left: $spacing--medium;
+    color: $color__white;
+	border-radius: 500px;
+	cursor: pointer;
+}
+
+.custombuttom--icon--disabled {
+    background-color: #bbb !important;
+}
+.custombuttom--icon {
+	padding: $spacing--small $spacing--medium;
+}
+
+.custombutton__icon--left {
+    margin-right: $spacing--small;
+}
+
+.custombutton__icon--right {
+    margin-left: $spacing--small;
+}

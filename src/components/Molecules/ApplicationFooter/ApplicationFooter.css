@@ -1,0 +1,32 @@
+.applicationfooter--wrapper {
+  min-height: 90px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 0.75rem; }
+  @media screen and (max-width: 600px) {
+    .applicationfooter--wrapper {
+      align-items: center;
+      flex-flow: column nowrap; } }
+
+.applicationfooter__flex-start {
+  justify-content: flex-start; }
+  @media screen and (max-width: 600px) {
+    .applicationfooter__flex-start {
+      justify-content: center; } }
+
+.applicationfooter__logo-image {
+  display: inline-block;
+  max-height: 90px;
+  max-width: 100%; }
+
+.applicationfooter-flex-item {
+  min-width: 300px;
+  flex: 1;
+  width: 100%;
+  padding: 16px; }
+
+.applicationfooter__logo {
+  flex-shrink: 0;
+  text-align: center; }

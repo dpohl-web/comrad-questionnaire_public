@@ -1,0 +1,11 @@
+für mahara
+/home/david/www/maharas/htdocs/mahara_17_10.local/htdocs/blocktype/learningstyle/js/build/static/js/main.4ed365b0.js
+"homepage": "http://mahara_17_10.local/blocktype/learningstyle/js/build/static/js",
+<BrowserRouter basename="/blocktype/learningstyle/js/build/static/js">
+
+für wp
+
+in package.json:
+for moodle
+"homepage": "http://moodle.rebus.local/mod/questionnaire/js/build",
+

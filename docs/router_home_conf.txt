@@ -1,0 +1,15 @@
+Mahara:
+Questionnaire geht aber schlechte pdf ausgabe / media wird gefunden (Router geht aber nicht):
+
+	basename="/view/view.php">
+	"homepage": "http://mahara_17_10.local/blocktype/learningstyle/js/build",
+
+router geht nicht / wird nicht erkannt (alles unterhalb Header ist weg, nur default page wird angezeigt)
+
+	basename="/view/view.php?id=3842">
+	"homepage": "http://mahara_17_10.local/blocktype/learningstyle/js/build",
+
+
+
+
+

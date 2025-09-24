@@ -1,0 +1,1184 @@
+<?xml version="1.0"?>
+<questionnaire>    
+	<head>
+		<title>
+            <de>
+                Lernstildiagnose
+            </de>
+            <en>
+                Learningstyle
+            </en>
+        </title>
+		<meta type="survey"/>
+		<language fallback="de_DE"/>		
+	</head>
+	<!--
+	###################################################################
+	#	Allgemeine Angaben
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Allgemeine Angaben
+            </de>
+            <en>
+                General Information
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                0
+            </evaluate>
+            <block id="wie_alt" type="datepicker">
+                <question min_required="1">
+                    <de>
+                        Geburtstag
+                    </de>
+                    <en>
+                        Birthday
+                    </en>
+                </question>
+            </block>
+            <block id="firstname" type="input">
+                <question min_required="1">
+                    <de>
+                        Vorname
+                    </de>
+                    <en>
+                        first name
+                    </en>    
+                </question>
+            </block>
+            <block id="lastname" type="input">
+                <question min_required="1">
+                    <de>
+                        Nachname
+                    </de>
+                    <en>
+                        last name
+                    </en>    
+                </question>
+            </block>
+            <block id="geschlecht" type="radio">
+                <question min_required="1">
+                    <de>
+                        Geschlecht
+                    </de>
+                    <en>
+                        Gender
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        weiblich
+                    </de>
+                    <en>
+                        female
+                    </en>
+                    <value>female</value>
+                </answer>
+                <answer>
+                    <de>
+                        männlich
+                    </de>
+                    <en>
+                        male
+                    </en>
+                    <value>male</value>
+                </answer>
+                <answer>
+                    <de>
+                        nicht angegeben
+                    </de>
+                    <en>
+                        not selected
+                    </en>
+                    <value>not selected</value>
+                </answer>
+            </block>
+        </page>
+    </cat>
+    <!--
+	###################################################################
+	#	Concrete Experience
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Concrete Experience
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="inputrange">
+                <question min_required="1">
+                    <de>
+                        Wie toll finden Sie diesen Test von 0 - 10?
+                    </de>
+                    <en>
+                        How do you like this test from 0 -10?
+                    </en>
+                </question>
+                <answer>
+                    <value type="min">10</value>
+                    <value type="max">20</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben
+                    </de>
+                    <en>
+                        I prefer a learning situation with concrete tasks and typical examples
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>9</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben
+                    </de>
+                    <en>
+                        I prefer a learning situation with concrete tasks and typical examples
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>
+
+            <block type="inputrange">
+                <question min_required="1">
+                    <de>
+                        Wie toll finden Sie diesen Test von 1 - 10?
+                    </de>
+                    <en>
+                        How do you like this test from 1 -10?
+                    </en>
+                </question>
+                <answer>
+                    <value type="min">0</value>
+                    <value type="max">10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>
+
+            <block type="check">
+                <question min_required="2">
+                    <de>
+                        Welche Eingabemethode mögne Sie am meisten?
+                    </de>
+                    <en>
+                        Which input method do you prefer?
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Checkbox
+                    </de>
+                    <en>
+                        checkbox
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Radio Buttons
+                    </de>
+                    <en>
+                        radio buttons
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Textarea
+                    </de>
+                    <en>
+                        textarea
+                    </en>
+                    <value>6</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>	
+            <block type="check">
+                <question min_required="2">
+                    <de>
+                        Welche Eingabemethode mögne Sie am meisten?
+                    </de>
+                    <en>
+                        Which input method do you prefer?
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Checkbox
+                    </de>
+                    <en>
+                        checkbox
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Radio Buttons
+                    </de>
+                    <en>
+                        radio buttons
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Textarea
+                    </de>
+                    <en>
+                        textarea
+                    </en>
+                    <value>6</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>	
+        </page>
+
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="check">
+                <question min_required="2">
+                    <de>
+                        Welche Eingabemethode mögne Sie am meisten?
+                    </de>
+                    <en>
+                        Which input method do you prefer?
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Checkbox
+                    </de>
+                    <en>
+                        checkbox
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Radio Buttons
+                    </de>
+                    <en>
+                        radio buttons
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Textarea
+                    </de>
+                    <en>
+                        textarea
+                    </en>
+                    <value>6</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>	
+            <block type="check">
+                <question min_required="2">
+                    <de>
+                        Welche Eingabemethode mögne Sie am meisten?
+                    </de>
+                    <en>
+                        Which input method do you prefer?
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Checkbox
+                    </de>
+                    <en>
+                        checkbox
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Radio Buttons
+                    </de>
+                    <en>
+                        radio buttons
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Textarea
+                    </de>
+                    <en>
+                        textarea
+                    </en>
+                    <value>6</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>	
+        </page>
+
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="inputrange">
+                <question min_required="1">
+                    <de>
+                        Wie toll finden Sie diesen Test von 0 - 10?
+                    </de>
+                    <en>
+                        How do you like this test from 0 -10?
+                    </en>
+                </question>
+                <answer>
+                    <value type="min">0</value>
+                    <value type="max">10</value>
+
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>
+            <block type="check">
+                <question min_required="2">
+                    <de>
+                        Welche Eingabemethode mögen Sie am meisten?
+                    </de>
+                    <en>
+                        Which input method do you prefer?
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Checkbox
+                    </de>
+                    <en>
+                        checkbox
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Radio Buttons
+                    </de>
+                    <en>
+                        radio buttons
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Textarea
+                    </de>
+                    <en>
+                        textarea
+                    </en>
+                    <value>15</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>	
+        </page>
+
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben
+                    </de>
+                    <en>
+                        I prefer a learning situation with concrete tasks and typical examples
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben
+                    </de>
+                    <en>
+                        I prefer a learning situation with concrete tasks and typical examples
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="check">
+                <question min_required="2">
+                    <de>
+                        Welche Eingabemethode mögne Sie am meisten?
+                    </de>
+                    <en>
+                        Which input method do you prefer?
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Checkbox
+                    </de>
+                    <en>
+                        checkbox
+                    </en>
+                    <value>5</value>
+                </answer>
+                <answer>
+                    <de>
+                        Radio Buttons
+                    </de>
+                    <en>
+                        radio buttons
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Textarea
+                    </de>
+                    <en>
+                        textarea
+                    </en>
+                    <value>4</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>	
+        </page>
+    </cat>
+
+    <!--
+	###################################################################
+	#	Reflected Observer
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Reflektierter Beobachter
+            </de>
+            <en>
+                Reflected Observer
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Kat 2 / Ich bevorzuge Lernsituation, bei denen ich alleine anfangen und mich selbst vertiefen kann.
+                    </de>
+                    <en>
+                        I prefer learning situation which allow that I start my way and all by myself to get into a matter.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>		
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich halte mich von Urteilen und Aussagen zurück, bis ich Einsicht gewonnen habe und ausreichend informiert bin.
+                    </de>
+                    <en>
+                        I restrain myself from judgments and statements until I've gained insight and am sufficiently informed.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>		
+            </block>
+        </page>
+
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich mache mir im Voraus Gedanken und versuche, etwas anzugehen, und ich mag es nicht, unvorbereitet auf Dinge zuzugehen.
+                    </de>
+                    <en>
+                        I do preliminary thoughts and give things a try about how to tackle something and I don't like to get into things unprepared.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+
+     <!--
+	###################################################################
+	#	Abstract Conception
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Abstrakte Konzeption
+            </de>
+            <en>
+                Abstract Conception
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Kat 3 / Ich bevorzuge Lernsituationen, in denen ich die Strukturen und den Kontext deutlich erkenne und klar ist, was wichtig ist.
+                    </de>
+                    <en>
+                        I prefer learning situations where I can clearly see the structures and context, and which make it clear what is important.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            
+        </page>
+
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ein Erfahrungsaustausch interessiert mich erst dann, wenn er zu einer rationalen Bewertung dieser Erfahrungen führt.
+                    </de>
+                    <en>
+                        An exchange of experience only starts to interest me if it leads to a rational evaluation of these experiences.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich profitiere wenig von Lernsituationen, in denen ich aufdecken soll, was Experten bereits entdeckt haben und präsentieren können.
+                    </de>
+                    <en>
+                        I profit little from learning situations in which I am supposed to uncover myself what experts have already discovered and could present.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+
+     <!--
+	###################################################################
+	#	Active Experimenting
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Aktives Experimentieren
+            </de>
+            <en>
+                Active Experimenting
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Kat 4 / Ich profitiere wenig von Lernsituationen, in denen ich mich auf eine passive Rolle beschränke.
+                    </de>
+                    <en>
+                        I profit little from learning situations, in which I'm limited to a passive role.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>		
+            </block>
+            
+        </page>
+
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Für mich ist es eine unvernünftige Forderung, wenn ich nur höre und lese, was andere mir sagen.
+                    </de>
+                    <en>
+                        To my mind it is an unreasonable demand, if I may only listen to and read what others tell me.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>		
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich ziehe es vor, Dinge selbst auszuprobieren und selbst zu sehen, was möglich ist.
+                    </de>
+                    <en>
+                        I prefer to try things myself and to see for myself what is possible.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Auf keinen Fall
+                    </de>
+                    <en>
+                        disagree with this statement
+                    </en>
+                    <value>0</value>
+                </answer>
+                <answer>
+                    <de>
+                        Auf fast keinen Fall
+                    </de>
+                    <en>
+                        rather disagree with this statement
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt manchmal
+                    </de>
+                    <en>
+                        rather agree with this statement
+                    </en>
+                    <value>6</value>
+                </answer>
+                <answer>
+                    <de>
+                        Stimmt absolut überein
+                    </de>
+                    <en>
+                        fully agree with this statement
+                    </en>
+                    <value>10</value>
+                </answer>
+                <weight>
+                    1
+                </weight>		
+            </block>
+        </page>
+    </cat>
+    <resultpage>
+        <header>
+            <title>
+                <de>
+                    Ihr Ergebnis des Questionnaires im Überblick
+                </de>
+                <en>
+                    Your result of the questionnaire
+                </en>
+            </title>
+            <description>
+                <de>
+                    Das haben Sie ganz toll gemacht!
+                </de>
+                <en>
+                    You did fine!
+                </en>
+            </description>
+        </header>
+        <body>
+            <description>
+                <de>
+                    Body Erklärungen
+                </de>
+                <en>
+                    body description
+                </en>
+            </description>
+        </body>
+    </resultpage>
+</questionnaire>

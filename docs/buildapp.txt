@@ -1,0 +1,26 @@
+src/constants/config.js
+
+change devMode and devBuild to false for:
+
+export const XML_PATH = 'https://reveal-eu.org/wp-content/plugins/questform/php/radar_quest.php';
+export const COUNT_PATH = 'https://reveal-eu.org/wp-content/plugins/questform/php/questformbackend/index.php';
+export const ROUTER_BASE_NAME = '/survey';
+
+change ROUTER_BASE_NAME,
+
+public/.htaccess:
+change RewriteRule ^ /survey/index.html [L]
+
+
+package.json
+
+add
+(where the index.js is)
+"homepage": "http://mahara.vita-eu.org/survey",
+
+Change Version:
+package.json : "version"
+src/constants/config.js : export const VERSION
+
+after all:
+npm run build

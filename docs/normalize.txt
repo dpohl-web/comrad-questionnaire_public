@@ -1,0 +1,26 @@
+
+max mögliche punkte inklusive weight am anfang in variable
+
+am anfang auch gleich auf 1 normieren
+
+beim abspeichern des wertes den wert mit weight multiplizieren (direkt in den State)
+
+
+am ende beim auswerten den wert auf 100 bringen
+z.b.
+Kat 1 = 50 p(mit Gewicht) von max 100(ohne Gewicht)
+Kat 2 = 90 p(mit Gewicht) von max 100(ohne Gewicht)
+Kat 3 = 100 p(mit Gewicht) von max 100(ohne Gewicht)
+Kat 4 = 150 p(mit Gewicht) von max 100(ohne Gewicht)
+ergibt am Enden:
+
+max = 150p
+100 / 150 = 0,66
+
+Kat 1 = 50 * 0,66 = 33
+Kat 2 = 90 * 0,66 = 59
+Kat 3 = 100 * 0,66 = 66
+Kat 4 = 150 * 0,66 = 100
+
+
+

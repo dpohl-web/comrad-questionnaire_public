@@ -1,0 +1,5 @@
+{
+    "editor.wordWrapColumn": 132,
+    "prettier.printWidth": 132,
+    "prettier.arrowParens": "always"
+}

@@ -1,0 +1,44 @@
+@import '../../../scss/variables.scss';
+
+$footerSegmentMinWidth: 300px;
+
+.applicationfooter--wrapper {
+	min-height: $header-height;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: $font-size__small;
+	@media screen and (max-width: $footerSegmentMinWidth * 2) {
+		align-items: center;
+        flex-flow: column nowrap;
+	}
+
+	
+}
+
+.applicationfooter__flex-start {
+	justify-content: flex-start;
+	@media screen and (max-width: $footerSegmentMinWidth * 2) {
+		justify-content: center;
+	}
+}
+
+.applicationfooter__logo-image {
+	display: inline-block;
+	max-height: $header-height;
+	max-width: 100%;
+}
+
+.applicationfooter-flex-item {
+    min-width: $footerSegmentMinWidth;
+    flex: 1;
+    width: 100%;
+	padding: $spacing--medium;
+}
+
+.applicationfooter__logo {
+	flex-shrink: 0;
+	text-align: center;
+}
+

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<questionnaire>    
+	<head>
+		<title>Lernstildiagnose</title>
+		<meta type="survey"/>
+		<language fallback="de_DE"/>		
+	</head>
+	<!--
+	###################################################################
+	#	Allgemeine Angaben
+	###################################################################
+	-->
+	<page id="allgemeine_angaben" next_page="KE">
+		<block id="wie_alt" type="datepicker">
+			<header>
+				<language lang="de">
+					<string>Generelle Informationen</string>
+				</language>
+				<language lang="en">
+					<string>General Informations</string>
+				</language>
+			</header>
+			<question min_required="1">
+				<language lang="de">
+					<string>Geburtstag</string>
+				</language>
+				<language lang="en">
+					<string>Birthday</string>
+				</language>
+			</question>
+		</block>	
+	 	<block id="geschlecht" type="radio">
+			<question min_required="1">
+				<language lang="de">
+					<string>Geschlecht></string>
+				</language>
+				<language lang="en">
+					<string>Gender</string>
+				</language>
+			</question>
+			<answer>
+				<language lang="de">
+					<string>weiblich</string>
+				</language>
+				<language lang="en">
+					<string>female</string>
+				</language>
+			</answer>
+			<answer>
+				<language lang="de">
+					<string>männlich</string>
+				</language>
+				<language lang="en">
+					<string>male</string>
+				</language>
+			</answer>
+		</block>
+	</page>	
+</questionnaire>

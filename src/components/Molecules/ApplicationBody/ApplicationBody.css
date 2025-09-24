@@ -1,0 +1,119 @@
+.applicationbody {
+  box-sizing: border-box;
+  padding-top: 90px;
+  height: 100vh; }
+  .applicationbody .input-range__label--value {
+    top: -2.8rem;
+    font-size: 1rem; }
+    .applicationbody .input-range__label--value .input-range__label-container {
+      padding: 8px;
+      border-radius: 500px;
+      background: white; }
+  .applicationbody .switch {
+    height: auto;
+    margin-bottom: 0; }
+    .applicationbody .switch .switch.small {
+      height: auto; }
+
+.applicationbody__scrolldiv {
+  height: 100%; }
+
+.applicationbody__scrolldiv-inner {
+  height: 100%;
+  overflow-y: scroll; }
+
+.application__scroll-flex-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between; }
+
+.applicationbody__block {
+  padding: 32px 0; }
+
+.applicationbody__block-wrapper {
+  position: relative; }
+
+.applicationbody__form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  flex: 1;
+  overflow-x: hidden; }
+  @media screen and (max-width: 320px) {
+    .applicationbody__form.grid-container {
+      padding-left: 0;
+      padding-right: 0; } }
+
+.applicationbody__block--inputrange {
+  padding: 32px 0; }
+
+.applicationbody__page-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0; }
+
+.applicationbody__page-button {
+  margin: 16px;
+  border-radius: 500px;
+  outline: none; }
+  .applicationbody__page-button:focus {
+    box-shadow: 0 0 0 2pt #7a7a7a; }
+
+.layout .applicationbody__page-button--disabled {
+  background-color: #c2c2c2;
+  cursor: default; }
+
+.layout .applicationbody__page-button--disabled:hover,
+.layout .applicationbody__page-button--disabled:focus {
+  background-color: #c2c2c2; }
+
+.applicationbody__block-question {
+  margin-bottom: 8px; }
+
+.applicationbody__labels-answers {
+  display: flex;
+  flex-flow: row nowrap; }
+  @media screen and (max-width: 320px) {
+    .applicationbody__labels-answers {
+      flex-flow: column nowrap; } }
+
+.applicationbody__label {
+  display: inline-block;
+  width: 80%;
+  max-width: 500px;
+  margin: 16px 0; }
+
+.applicationbody__label--right {
+  margin-left: 16px; }
+
+.applicationbody__question-title {
+  margin: 0;
+  color: #333; }
+
+.applicationbody__multiselection {
+  font-size: 0.75rem;
+  font-style: italic;
+  opacity: 0.7;
+  color: #333; }
+
+.applicationbody__answer {
+  margin: 16px 0 0 16px; }
+
+.applicationbody__catheader {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem; }
+
+.applicationbody__transition-wrapper {
+  opacity: 0;
+  transition: opacity .4s ease-in; }
+
+.applicationbody__transition--show {
+  opacity: 1; }
+
+.applicationbody__form grid-container {
+  min-height: 100%; }
+
+.applicationbody__navigation-buttons {
+  margin-top: auto; }

@@ -1,0 +1,1483 @@
+<?xml version="1.0"?>
+<questionnaire>    
+	<head>
+		<title>
+            <de>
+                Lernstildiagnose
+            </de>
+            <en>
+                Competence to create ideas and opportunities
+            </en>
+        </title>
+		<meta type="survey"/>
+		<language fallback="de_DE"/>		
+	</head>
+	<!--
+	###################################################################
+	#	Allgemeine Angaben
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Allgemeine Angaben
+            </de>
+            <en>
+                General Information
+            </en>
+        </catname>
+        <page>
+            <evaluate>
+                0
+            </evaluate>
+            <block id="wie_alt" type="datepicker">
+                <question min_required="1">
+                    <de>
+                        Geburtstag
+                    </de>
+                    <en>
+                        Birthday
+                    </en>
+                </question>
+            </block>
+            <block id="geschlecht" type="radio">
+                <question min_required="1">
+                    <de>
+                        Geschlecht
+                    </de>
+                    <en>
+                        Gender
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        weiblich
+                    </de>
+                    <en>
+                        female
+                    </en>
+                    <value>female</value>
+                </answer>
+                <answer>
+                    <de>
+                        männlich
+                    </de>
+                    <en>
+                        male
+                    </en>
+                    <value>male</value>
+                </answer>
+                <answer>
+                    <de>
+                        nicht angegeben
+                    </de>
+                    <en>
+                        not selected
+                    </en>
+                    <value>not selected</value>
+                </answer>
+            </block>
+            <block id="firstname" type="input">
+                <question min_required="1">
+                    <de>
+                        Beruf, Studienzweig, Spezialisierung
+                    </de>
+                    <en>
+                        University, Field of Study
+                    </en>    
+                </question>
+            </block>
+        </page>
+    </cat>
+    <!--
+	###################################################################
+	#	Spotting opportunities
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Spotting opportunities
+            </en>
+        </catname>
+        <catcolor>
+            <red>35</red>
+            <green>58</green>
+            <blue>125</blue>
+        </catcolor>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                        Identify, create and seize opportunities.
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that looking for opportunities is vital for entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise opportunities to create value in my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain what makes an opportunity to create value.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different analytical approaches to identify entrepreneurial opportunities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can assess complex opportunities for creating value and decide whether to follow these up at different levels of the system I am working in (for example, micro, meso or macro).
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Focus on challenges
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I have encountered challenges in my private and professional environment.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise challenges in my community and surroundings that I can contribute to solving.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can redefine the description of a challenge, so that alternative opportunities address it may become apparent.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can assess the right time to take an opportunity to create value in regard to multifaceted challenges
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                       I can cluster different opportunities or identify synergies among different opportunities to make the most out of them.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        Uncover needs
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I understand that different societal needs are drivers for innovation and taking action.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can identify needs in my community and surroundings that have not been met.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can explain how different groups may have different needs.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can carry out a needs analysis involving relevant stake-holders.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can design projects which aim to anticipate future needs.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        Analyse the context
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I am aware that there are different stakeholders who influence my life in my region.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise and explain the different roles the public, private and third sectors play in my region or country.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can tell the difference between contexts for creating value (e.g., communities and informal networks, existing organisations, the market).
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can identify the contextual boundaries of the system that are relevant to my (or my team's) value-creating activity.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can monitor relevant trends in my domain and see how they create threats and new opportunities to create value.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+         </block>
+        </page>
+    </cat>
+            <!--
+	###################################################################
+	#	Creating ideas
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Creating ideas
+            </en>
+        </catname>
+        <catcolor>
+            <red>255</red>
+            <green>128</green>
+            <blue>0</blue>
+        </catcolor>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                      Being Curious
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I can show that I am curious about new things.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can experiment with my skills and competences in situations that are new to me.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can actively search for new solutions that meet my needs.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                       I can actively search for new solutions that improve the value-creating process.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can combine my understanding of different contexts to transfer knowledge, ideas and solutions across different areas that are connected to my value creating ideas and projects.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Developing Ideas
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that idea creation is a fundamental activity in the entrepreneurial process.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can develop ideas that solve problems that are relevant to me and my surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can experiment with different techniques to generate alternative solutions to problems, using available resources in an effective way.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can test the value of my solutions with end users.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can tailor a variety of ways of involving stakeholders to suit the needs of my value-creating activity.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        Defining Problems
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that problem-solving is an important aspect of entrepreneurship.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can approach open-ended problems (problems with many solutions) with curiosity.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can take part in team-sessions aiming at defining open-ended problems.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                       I can describe and explain different approaches to shaping open-ended problems and different problem-solving strategies.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can use a mix of creative techniques and strategies to keep generating value over time to solve multifaceted problems.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich schöpfe am meisten aus dem Austausch mit anderen, aus Rückmeldungen und Gesprächen mit Gleichgesinnten.
+                    </de>
+                    <en>
+                        Designing Values
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I understand that the value of certain things depend on the own situation and the context.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can assemble objects that create value for me and others.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can identify the basic functions that a prototype should have to illustrate the value of my idea.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can create (alone or with others) products or services that solve my problems and my needs.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can apply different design approaches to create value through new products, processes or services.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Being Innovative
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I have a basic idea what innovation is and that it is of vital importance for entrepreneurial activities.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can find and name examples of innovative products, services and solutions.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can differentiate different kinds of innovation. I can judge if an idea, product or process is innovative or just new to me.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can describe different levels of innovation (e.g. incremental, breakthrough or transformational) and their role in value-creating activities.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can manage innovation processes that respond to emerging needs and make the most of opportunities as they become available.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+            <!--
+	###################################################################
+	#	Visioning
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Visioning
+            </en>
+        </catname>
+        <catcolor>
+            <red>0</red>
+            <green>128</green>
+            <blue>0</blue>
+        </catcolor>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                      Imagine
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I imagine occasionall how my future (private/professional) life and my community and surroundings may look like.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can develop simple future scenarios where value is created for my community and surroundings.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can build future scenarios around my value-creating activity.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can use my understanding of the context to identify different strategic visions for creating value.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can develop (alone or with others) and compare different future scenarios.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Think strategically
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I have a general idea what strategic thinking is.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can explain what a vision is and what purpose it serves.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I am aware of what is needed to create a vision.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can prepare a vision statement for my (or my team's) value-creating activity that guides internal decision-making throughout the whole process of creating value.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can plan a feasible and realistic strategy to achieve my vision.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        Guide action
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that entrepreneurs transfer ideas into action.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can decide what type of vision for creating value I would like to contribute to.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can identify the changes and the actions needed to achieve my vision.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can promote initiatives for change and transformation that contribute to my vision.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can identify challenges related to my (or my team's) vision, while respecting the different levels of the system and the variety of stakeholders affected. I am able to create a roadmap to achieve my vision.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+         </page>
+    </cat>
+            <!--
+	###################################################################
+	#	Valuing ideas
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Valuing ideas
+            </en>
+        </catname>
+        <catcolor>
+            <red>192</red>
+            <green>0</green>
+            <blue>0</blue>
+        </catcolor>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                      Recognise the value of ideas
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I understand that the value of certain things depend on the own situation and the context.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can find examples of ideas that have value for myself and others. I can tell the difference between social, cultural and economic value.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can decide which type of value I want to act on and then choose the most appropriate pathway to do so.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can break down a value chain into its different parts and identify how value is added in each part.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can develop strategies to effectively make the most of opportunities to create value in my organisation or venture.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Share and protect ideas
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that ideas and concepts of others are their Intellectual Property.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can explain that ideas can be shared and circulated for the benefit of every-one or can be protected by certain rights, for example, copyrights or patents.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can tell the difference between types of licences that can be used to share ideas and protect rights.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can tell the difference between trademarks, registered design rights, patents, geographical indications, trade secrets, confidentiality agreements and copyright licences, including open, public-domain licences such as creative commons.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        When creating ideas with others, I can outline a dissemination and exploitation agreement that benefits all partners involved.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+            <!--
+	###################################################################
+	#   Ethical and sustainable thinking
+	###################################################################
+	-->
+    <cat>
+        <catname>
+            <de>
+                Konkrete Erfahrungen
+            </de>
+            <en>
+                Ethical and sustainable thinking
+            </en>
+        </catname>
+        <catcolor>
+            <red>0</red>
+            <green>128</green>
+            <blue>0</blue>
+        </catcolor>
+        <page>
+            <evaluate>
+                1
+            </evaluate>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich bearbeite gerne konkrete Aufgaben.
+                    </de>
+                    <en>
+                      Behave ethically
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I have heard about ethical and unethical behaviour in my private or professional environment.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can recognise behaviours that show integrity, honesty, responsibility, courage and commitment.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can apply ethical thinking to consumption and production processes.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can take responsibility for promoting ethical behaviour in my area of influence, (for example, by promoting gender balance highlighting inequalities and any lack of integrity).
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I make it my priority to make sure that ethical behaviour is respected and promoted in my area of influence and I take action against unethical behaviour.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich denke, es ist wenig hilfreich, als ersten Schritt zu verallgemeinern und zu theoretisieren. 
+                    </de>
+                    <en>
+                        Think sustainably
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that my activities may have an impact on environmental and sustainability level.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can list examples of environmentally friendly behaviour that benefits a community.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can produce a clear problem statement when faced with practices that are not sustainable.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can discuss the relationship between society and technical developments, relating to their implications for the environment and I can discuss the impact an organisation has on the environment (and vice versa).
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can choose adequate methods for analysing environmental impact based on their advantages and disadvantages.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        Assess impact
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I have not got in contact with the assessment of the impact of my actions yet.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can find and list examples of changes caused by human action in social, cultural, environmental or economic contexts.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can identify the impact that taking up opportunities will have on me and my team, on the target group and on the surrounding community.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can analyse the implications of my value-creating activity within the boundaries of the system I am working in.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can carry out impact assessment, impact monitoring, and impact evaluation on my value-creating activity.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>     
+            <block type="radio">
+                <question min_required="1">
+                    <de>
+                        Ich frage eher den Charakter jeder Sache, jeden Vorfall oder jede Person und weniger, was diese mit anderen gemeinsam haben. 
+                    </de>
+                    <en>
+                        Be accountable
+                    </en>
+                </question>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage nicht zu
+                    </de>
+                    <en>
+                        I know that entrepreneurs are accountable for their activities.
+                    </en>
+                    <value>1</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher nicht zu
+                    </de>
+                    <en>
+                        I can tell the difference between being accountable for use of resources and accounting for the impact of my value-creating activity on stakeholders and the environment.
+                    </en>
+                    <value>2</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage eher zu
+                    </de>
+                    <en>
+                        I can tell the difference between input, output, outcomes and impact.
+                    </en>
+                    <value>3</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can discuss a range of accountability methods for both functional and strategic accountability.
+                    </en>
+                    <value>4</value>
+                </answer>
+                <answer>
+                    <de>
+                        Ich stimme dieser Aussage voll und ganz zu
+                    </de>
+                    <en>
+                        I can use the accountability methods that hold me responsible to our internal and external stakeholders.
+                    </en>
+                    <value>5</value>
+                </answer>
+                <weight>
+                    1
+                </weight>	
+            </block>
+        </page>
+    </cat>
+    <resultpage>
+        <header>
+            <title>
+                <de>
+                    Lernstildiagnose
+                </de>
+                <en>
+                    Learningstyle
+                </en>
+            </title>
+        </header>
+        <body>
+            <interpretation number="1" required="0">
+                <description>
+                    <de>
+                        <p>
+                            Wie können wir die Ergebnisse interpretieren?
+                        </p>
+                        <p>
+                            Je höher die Punktzahl für eine Kategorie, desto mehr ist diese Kategorie in Ihrem Fall relevant.
+                        </p>
+                        <p>
+                            Der konkrete Wert kann aus den Kreisen abgeleitet werden, die sogenannte Perzentile anzeigen.
+                        </p>
+                        <p>
+                            Ein Wert nahe 50% bedeutet, dass 50% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben - was bedeutet, dass Sie mit dem Durchschnitt übereinstimmen.
+                        </p>
+                        <p>
+                            Ein Wert nahe 20% bedeutet, dass nur 20% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben und die restlichen 80% einen höheren Wert haben - in diesem Fall passen Sie zu einem relativ niedrigen Grad zu diesem Typ (dieser Eigenschaften).
+                        </p>
+                        <p>
+                            Ein Wert nahe 80% bedeutet, dass 80% der vergleichbaren Bevölkerung einen ähnlichen oder niedrigeren Wert haben und nur 20% einen höheren Wert haben - in diesem Fall passen Sie zu einem relativ hohen Grad zu diesem Typ (dieser Eigenschaften).
+                        </p>
+                    </de>
+                    <en>
+                        <p>
+                            How can we interpret the results?
+                        </p>
+                        <p>
+                            The higher the score for a category the more this category is relevant in your case.
+                        </p>
+                        <p>
+                            The concrete value can be derived from the circles that display so called percentils.
+                        </p>
+                        <p>
+                            A score near to 50% means that 50% of the comparable population have a similar or lower value - which means that you match with the average.
+                        </p>
+                        <p>
+                            A score near to 20% means that only 20% of the comparable population have a similar or lower value and the remaining 80% have a higher value - in this case you are matching to a relatively low degree to that type (this characteristics).
+                        </p>
+                        <p>
+                            A score near to 80% means that 80% of the comparable population have a similar or lower value and only 20% have a higher value - in this case you are matching to a relatively high degree to that type (this characteristics).
+                        </p>
+                    </en>
+                </description>
+            </interpretation>
+            <interpretation number="2" required="0">
+                <image_categories>
+                    <image_category>
+                        <de>
+                            Diverger
+                        </de>
+                        <en>
+                            Diverger
+                        </en>
+                    </image_category>
+                    <image_category>
+                        <de>
+                            Assimilitor
+                        </de>
+                        <en>
+                            Assimilitor
+                        </en>
+                    </image_category>
+                    <image_category>
+                        <de>
+                            Converger
+                        </de>
+                        <en>
+                            Converger
+                        </en>
+                    </image_category>
+                    <image_category>
+                        <de>
+                            Accomodator
+                        </de>
+                        <en>
+                            Accomodator
+                        </en>
+                    </image_category>
+                </image_categories>
+                <description>
+                    <de>
+                        <p>
+                            Wie Sie sehen können, haben die vier Felder den Titel: Diverger, Assimilitor, Converger und Accomodator.
+                        </p>
+                        <p>
+                            Dies sind die 4 Hauptlehrpfade nach dem KOLB-Modell.
+                        </p>
+                        <p>
+                            Dein Lernstil ist auf Hochtouren, wenn dein Wert weit im jeweiligen Feld liegt.
+                        </p>
+                        <p>
+                            Wenn Ihr Wert zu einem benachbarten Feld eng ist, kann dies eine Mischung aus Lernstil genannt werden.
+                        </p>
+                        <p>
+                            Wenn Ihr Wert in der Nähe des Zentrums liegt, haben Sie einen ausgewogenen Lernstil mit Elementen aus allen Kategorien.
+                        </p>
+                        <p>
+                            Die folgenden Aussagen sind noch nicht durch abgeschlossene Forschungsdaten belegt; Sie basieren auf den Erfahrungen der ersten und zweiten Version von Kolbs \"Lernstil-Inventar\".
+                        </p>
+                        <p>
+                            Diverager bevorzugen konkrete Erfahrung und reflektierende Beobachtung. Ihre Stärke ist eine einfallsreiche Fähigkeit. Sie neigen dazu, konkrete Situationen aus verschiedenen Blickwinkeln zu betrachten und interessieren sich für Menschen. Sie haben ein breites kulturelles Interesse und spezialisieren sich oft auf künstlerische Aktivitäten. Dieser Lernstil ist typisch für Geisteswissenschaften und verwandte Berufe.
+                        </p>
+                        <p>
+                            Assimilatoren bevorzugen reflektive Beobachtung und abstrakte Konzeptualisierung. Ihre Stärke ist die Generierung theoretischer Modelle. Sie neigen dazu, Schlussfolgerungen zu ziehen und sich lieber mit Dingen und Theorien als mit Personen zu beschäftigen. Sie integrieren einzelne Fakten in Begriffe und Konzepte. Dieser Lernstil ist typisch für Mathematiker und Theoretiker und verwandte Berufe.
+                        </p>
+                        <p>
+                            Convergers bevorzugen abstrakte Konzeptualisierung und aktives Experimentieren. Ihre Stärke ist die Ausführung von Ideen. Sie neigen zu hypothetisch-deduktiven Schlussfolgerungen und ziehen es vor, sich mit Dingen und Theorien zu beschäftigen (die sie gerne untersuchen) als mit Personen. Sie haben enge technische Interessen und spezialisieren sich oft auf angewandte Wissenschaften. Dieser Lernstil ist typisch für Ingenieure.
+                        </p>
+                        <p>
+                            Accomodatoren bevorzugen aktives Experimentieren und konkrete Erfahrung. Ihre Stärke ist die Anordnung von Aktivitäten. Sie neigen zur intuitiven Problemlösung durch Versuch und Irrtum und beschäftigen sich lieber mit Personen als mit Dingen und Theorien. Sie würden einzelnen Fakten mehr vertrauen als theoretischen Konstrukten und spezialisieren sich oft auf praktisches Handeln. Dieser Lernstil ist typisch für Sales Manager.
+                        </p>
+                    </de>
+                    <en>
+                        <p>
+                            As you can see the four fields are entitled: Diverger, Assimilitor, Converger und Accomodator.
+                        </p>
+                        <p>
+                            These are the 4 main Learning stiles according to the model of KOLB.
+                        </p>
+                        <p>
+                            Your learning stile is in high gear when your value is situated far in the respective field.
+                        </p>
+                        <p>
+                            When your value is narrow to a neighbouring field one can name this a mixture type of learning style.
+                        </p>
+                        <p>
+                            If your value is near to the center you have a balanced learning style that has elements from all categories.
+                        </p>
+                        <p>
+                            The following statements are not yet proven by completed research data; they are grounded on experiences from the first and second version of Kolbs \"Learning style inventory\".
+                        </p>
+                        <p>
+                            Divergers prefere concrete experience and reflective observation. Their strenght is an imaginative ability. They have a tendency for regarding concrete situations from various perspectives and they are interested in people. They have a broad cultural interest and often specialize in artistic activities. This learning style is typical for humanities and related professions.
+                        </p>
+                        <p>
+                            Assimilators prefere reflective observation and abstract conceptualization. Their strength is the generation of theoretical models. They have a tendency for in-ductive conclusions and prefer to occupy themselves with things and theories rather than with persons. They integrate single facts to terms and concepts. This learning style is typical for mathematicians and theoretical sciences and related professions.
+                        </p>
+                        <p>
+                            Convergers prefere abstract conceptualization and active experimentation. Their strength is the execution of ideas. They have a tendency for hypotheical-deductive conclusions and prefer to occupy themselves with things and theories (which they like to examine) than with persons. They have narrow technical interests and often specialize in applied sciences. This learning style is typical for engineers.
+                        </p>
+                        <p>
+                            Accomodators prefere active experimentation and concrete experience. Their strenght is the arrangement of activities. They have a tendency for intuitive problem solving by trial-and-error and prefer to occupy themselves with persons rather than things and theories. They would trust single facts more than theoretical constructs and often specialize in practical doing. This learning style is typical for sales managers.
+                        </p>
+                    </en>
+                </description>
+            </interpretation>
+            <literature required="0">
+                <p>
+                    Ferrell, Barbara G.: A Factor Analytic Comparison of Four Learning-Styles Instruments. In: Journal of Educational Psychology, 1983, Heft 1, S. 33-39.
+                </p>
+                <p>
+                    Fischer, Barbara B. / Fischer, Louis: Styles in Teaching and Learning. In: Educational Leadership, 1979, S. 245-254. 
+                </p>
+                <p>
+                    Flechsig, Karl-Heinz: Kleines Handbuch didaktischer Modelle, Eichenzell, Neuland - Verlag für lebendiges Lernen, 1996
+                </p>
+                <p>
+                    Gabriel, Alfred/Haller, Hans-Dieter: Untersuchungen zu Lernstilen von Erwachsenen an Abendgymnasien. In: Festschrift â€ž10 Jahre Abendgymnasium GÃ¶ttingenâ€œ, 4. Juni 1983, S. 11-20.
+                </p>
+                <p>
+                    Haller, Hans-Dieter: An die Tür des Geistes klopfen. Lernen und ProblemlÃ¶sen. In: ManagerSeminar, 1992, 7, S. 42-49
+                </p>
+                <p>
+                    Heue, Matthias: Die Erfassung kultureller Wertorientierungen an Hand der AnsÃ¤tze von Kluckhohn/Strodtbeck und Hofstede und deren VerwendungsmÃ¶glichkeiten fÃ¼r Situationen des Kulturaustausches, Diplom-Arbeit, Fachbereich Sozialwissenschaften, UniversitÃ¤t GÃ¶ttingen, 1995.
+                </p>
+                <p>
+                    Hofstede, Geert: Culture`s Consequences. International Differences in Work-Related Values. Beverly Hills - London - New York, Sage Publications. 1980.
+                </p>
+                <p>
+                    Hofstede, Geert:Cultures and Organizations. Software of the Mind. London etc., McGraw-Hill Book Company, 1991.
+                </p>
+                <p>
+                    Hofstede, Geert: Interkulturelle Zusammenarbeit. Wiesbaden, Gabler, 1993.
+                </p>
+                <p>
+                    Katz, Noomi: : Individual learning style: Israeli norms and cross-cultural equivalence of Kolb\'s Learning Style Inventory. In: Journal-of-Cross-Cultural-Psychology, 1988, S. 361-379.
+                </p>
+                <p>
+                    Kolb, David A.: The Learning Style Inventory. Technical Manual. Boston, Mass., 1976.
+                </p>
+                <p>
+                    Kolb, David A.: Learning Styles and Disciplinary Differences. In: Chickering, Arthur W. (Hrsg.), The Modern American College. San Francisco etc.. 1981, S. 232 - 255.
+                </p>
+                <p>
+                    Pask, Gordon: Styles and Strategies of Learning. In: British Journal of Educational Psychology. 1976, S. 128-148.
+                </p>
+                <p>
+                    Pask, Gordon: Learning Strategies, Teaching Strategies, and Conceptual or Learning Style. In: Schmeck, Ronald R. (Hrsg.), Learning Strategies and Learning Styles. New York - London, Plenum Press, 1988, S. 83-100.
+                </p>
+                <p>
+                    Quinn, N. &amp; Holland, D., Culture and Cognition, in: Holland, D. &amp; Quinn, N. (eds.), Cultural Models in Language and Thought. Cambridge MA 1987.
+                </p>
+                <p>
+                    Richardson, John T.E.: Cultural specifity of approaches to studying in higher education: A literature survey. In: Higher Education, 1994, S. 449-468.
+                </p>
+                <p>
+                    Sandhaas, Bernd: Lernen in Fremder Kultur.- Didaktische Orientierungen bei angehenden Hochschullehrern aus LÃ¤ndern der Dritten Welt im Auslandsstudium in der Bundesrepublik Deutschland. GÃ¶ttingen, Zentrum fÃ¼r didaktische Studien, 1988.
+                </p>
+                <p>
+                    Schank, R. &amp; Abelson, R., Scripts, Plans, Goals, and Understanding: An Inquiry into Human Knowlege Structure, Hillsdale 1977.
+                </p>
+                <p>
+                    Schrader, Josef: Lerntypen bei Erwachsenen, empirische Analysen zum Lernen und Lehren in der beruflichen Weiterbildung. Weinheim, Dt. Studien-Verlag, 1994. 
+                </p>
+                <p>
+                    Tait, H. / Entwistle, N.: Identifying students at risk through ineffective study strategies. In: Higher Education, 31, 1996, S. 97-116.
+                </p>
+            </literature>
+        </body>
+    </resultpage>
+</questionnaire>
